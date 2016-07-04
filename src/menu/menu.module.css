@@ -1,0 +1,46 @@
+.menu {
+  box-sizing: border-box;
+  padding: 4px 0;
+  border: 1px solid #e7e7e7;
+  background-color: #FFF;
+  overflow: hidden;
+  box-shadow: 2px 2px 5px rgba(83, 100, 122, 0.35);
+  z-index: 20;
+}
+
+.item {
+  composes: ellipsis from '../util/index.module.css';
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  height: 28px;
+  line-height: 28px;
+  padding: 0 16px;
+  color: #666;
+  list-style: none;
+  user-select: none;
+}
+.item:hover {
+  background-color: #edf1f5;
+  cursor: pointer;
+}
+
+.item a {
+  display: block;
+  color: #666;
+}
+
+.item a:hover {
+  color: #666;
+  text-decoration: none;
+}
+
+.item-disabled {
+  composes: item;
+  color: #dae2ed;
+}
+
+.item-disabled:hover {
+  background-color: #fff;
+  cursor: default;
+}

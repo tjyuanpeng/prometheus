@@ -1,0 +1,40 @@
+.wrap {
+  display: inline-block;
+  position: relative;
+}
+
+.main,
+input.main[type="button"],
+input.main[type="button"],
+input.main[type="submit"],
+input.main[type="submit"] {
+  vertical-align: middle;
+  border-right: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.toggle {
+  vertical-align: middle;
+  padding: 0 4px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.toggle-icon {
+}
+
+.menu {
+  position: absolute;
+  min-width: 100px;
+}
+
+.menu-closed {
+  composes: menu;
+  display: none;
+}
+
+.menu-opened {
+  composes: menu;
+  display: block;
+}

@@ -1,0 +1,38 @@
+.list {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.title {
+  display: inline-block;
+  line-height: 28px;
+  color: #666;
+  vertical-align: middle;
+}
+
+.item {
+  display: inline-block;
+  padding: 0 7px 0 8px;
+  margin: 0;
+  border-right: 1px solid #dae2ed;
+  line-height: 18px;
+  vertical-align: middle;
+  user-select: none;
+  cursor: pointer;
+}
+
+.item-inner:hover {
+  color: #FF7519;
+  text-decoration: none;
+}
+
+.list .item:last-child {
+  border-right: none;
+}
+
+.active {
+  composes: item;
+  font-weight: bold;
+  color: #FF7519;
+  cursor: default;
+}

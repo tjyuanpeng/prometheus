@@ -1,0 +1,49 @@
+.nav {
+  box-sizing: border-box;
+}
+
+.item {
+  display: inline-block;
+  box-sizing: border-box;
+  min-width: 48px;
+  margin-right: 48px;
+  padding: 0 8px 8px;
+  border-bottom: 2px solid transparent;
+  color: #666;
+  line-height: 20px;
+  text-align: center;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: border-color 0.3s, color 0.3s;
+}
+
+.item:hover {
+  border-bottom-color: #dae2ed;
+}
+
+.nav .item:last-child {
+  margin-right: 0;
+}
+
+.item a {
+  color: #666;
+  transition: color 0.3s;
+}
+
+.item a:hover {
+  text-decoration: none;
+}
+
+.active {
+  composes: item;
+  color: #FE6A00;
+  border-bottom-color: #FE6A00;
+}
+
+.active:hover {
+  border-bottom-color: #FE6A00;
+}
+
+.active a {
+  color: #FE6A00;
+}

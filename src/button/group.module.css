@@ -1,0 +1,23 @@
+.wrap {
+
+}
+
+.item {
+  vertical-align: middle;
+}
+
+.button-child {
+  border-left: none;
+  border-radius: 0;
+}
+
+.button-child-first {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.button-child-last {
+  border-left: none;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}

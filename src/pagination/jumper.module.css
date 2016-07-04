@@ -1,0 +1,42 @@
+.wrap {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.title {
+  display: inline-block;
+  color: #666;
+  vertical-align: middle;
+}
+
+.input {
+  width: 40px;
+  height: 28px;
+  margin-left: 8px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.go {
+  display: inline-block;
+  box-sizing: border-box;
+  margin-left: 8px;
+  min-width: 40px;
+  height: 28px;
+  padding: 0 8px;
+  border: 1px solid #DAE2ED;
+  border-radius: 3px;
+  color: #666;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  cursor: pointer;
+}
+
+.go:hover {
+  color: #FF7519;
+  border-color: #FF7519;
+  text-decoration: none;
+}

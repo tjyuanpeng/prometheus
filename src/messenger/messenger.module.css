@@ -1,0 +1,110 @@
+@keyframes slidein {
+  from {
+    top: -40px;
+    opacity: 0.3;
+  }
+  to {
+    top: 16px;
+    opacity: 1;
+  }
+}
+@keyframes slideout {
+  from {
+    top: 16px;
+    opacity: 1;
+  }
+  to {
+    top: -40px;
+    opacity: 0.3;
+  }
+}
+
+.wrap {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  z-index: 999;
+}
+
+.wrap-animate {
+  composes: wrap;
+  animation-duration: .1s;
+  animation-name: slidein;
+  animation-fill-mode: both;
+  animation-timing-function: ease-out;
+}
+
+.wrap-animate-end {
+  composes: wrap;
+  animation-duration: .1s;
+  animation-name: slideout;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in;
+}
+
+.content {
+  composes: ellipsis from '../util/index.module.css';
+  display: inline-block;
+  box-sizing: border-box;
+  max-width: 40%;
+  padding: 8px 12px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  color: #666;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(83, 100, 122, 0.35);
+}
+
+.icon {
+  display: inline-block;
+  margin-top: -2px;
+  margin-right: 8px;
+  height: 18px;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.content-info {
+  composes: content;
+  background-color: #fff;
+  border-color: #dae2ed;
+}
+
+.content-success {
+  composes: content;
+  background-color: #E8F9E8;
+}
+
+.content-warning {
+  composes: content;
+  background-color: #FFF1E8;
+}
+
+.content-error {
+  composes: content;
+  background-color: #FAE7E7;
+}
+
+.icon-info {
+  composes: icon;
+  color: #2db7f5;
+}
+
+.icon-success {
+  composes: icon;
+  color: #2ABF2D;
+}
+
+.icon-warning {
+  composes: icon;
+  color: #FD752C;
+}
+
+.icon-error {
+  composes: icon;
+  color: #C9181F;
+}

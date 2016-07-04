@@ -1,0 +1,8 @@
+.item {
+  display: none;
+}
+
+.active {
+  composes: item;
+  display: block;
+}

@@ -1,0 +1,19 @@
+.wrap {
+  display: inline-block;
+  position: relative;
+}
+
+.picker {
+  position: absolute;
+  z-index: 100;
+}
+
+.picker-closed {
+  composes: picker;
+  display: none;
+}
+
+.picker-opened {
+  composes: picker;
+  display: block;
+}

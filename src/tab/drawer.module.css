@@ -1,0 +1,20 @@
+.wrap {
+
+}
+
+.knob {
+  text-align: center;
+}
+
+.knob-inner {
+  display: inline-block;
+  margin-top: -1px;
+  padding: 4px 20px;
+  border: 1px solid #dae2ed;
+  border-top: none;
+  font-size: 12px;
+  color: #666;
+  background-color: #fff;
+  border-radius: 0 0 3px 3px;
+  cursor: pointer;
+}

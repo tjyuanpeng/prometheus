@@ -1,0 +1,58 @@
+.alert {
+  width: 400px;
+  box-sizing: border-box;
+}
+
+.alert-icon {
+  float: left;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.alert-title {
+  margin-top: 8px;
+  padding-left: 48px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.alert-content {
+  margin-top: 8px;
+  padding-left: 48px;
+}
+
+.alert-actions {
+  margin-top: 40px;
+  /*padding-left: 48px;*/
+  text-align: center;
+}
+
+.alert-btn {
+  margin-right: 20px;
+  min-width: 80px;
+}
+
+.alert-icon-info {
+  composes: alert-icon;
+  color: #2db7f5;
+}
+
+.alert-icon-success {
+  composes: alert-icon;
+  color: #2ABF2D;
+}
+
+.alert-icon-warning {
+  composes: alert-icon;
+  color: #FD752C;
+}
+
+.alert-icon-error {
+  composes: alert-icon;
+  color: #C9181F;
+}

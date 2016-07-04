@@ -1,0 +1,17 @@
+.clearfix:before,
+.clearfix:after {
+  content:"";
+  display:table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.ellipsis {
+  /*max-width: 100%;*/
+  overflow: hidden;
+  word-wrap: normal;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
