@@ -1,7 +1,9 @@
 {
   "name": "@ali/prometheus",
   "version": "1.0.0",
-  "private": true,
+  "publishConfig": {
+    "registry": "http://registry.npm.alibaba-inc.com"
+  },
   "scripts": {
     "clean": "rimraf dist",
     "dev": "tnpm run clean && NODE_ENV=development webpack --watch --debug --output-pathinfo --progress",
