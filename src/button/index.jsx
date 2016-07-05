@@ -4,6 +4,6 @@ import ButtonGroup from './group.jsx'
 
 export {
   Button,
-  ButtonGroup,
   SplitButton,
+  ButtonGroup,
 }

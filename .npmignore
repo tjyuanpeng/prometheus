@@ -1,8 +1,8 @@
 **/.*
 package.json
+webpack.config.js
 **/*.md
 **/examples/
 **/docs/
 **/tests/
-**/*.psd
-**/mcms.json
+src/

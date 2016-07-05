@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import rcm from 'react-css-modules'
 
-import './icon.css'
+import '@alife/alpha-icon/icon.css'
 
 class Icon extends Component {
   render() {

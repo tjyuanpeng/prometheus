@@ -3,7 +3,6 @@ var webpack = require('webpack');
 
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
 var WebpackNotifierPlugin = require('webpack-notifier');
-var autoprefixer = require('autoprefixer');
 var customProperties = require("postcss-custom-properties");
 var HappyPack = require('happypack');
 var happyThreadPool = HappyPack.ThreadPool({ size: 5 });
@@ -13,17 +12,30 @@ var environment = process.env.NODE_ENV || 'development';
 
 var config = {
   stats: { children: false },
-  devtool: 'cheap-module-source-map',
+  externals: {
+    'react': {
+      commonjs2: 'react',
+    },
+    'react-css-modules': {
+      commonjs2: 'react-css-modules',
+    },
+    'moment': {
+      commonjs2: 'moment',
+    },
+    '@alife/alpha-icon/icon.css': {
+      commonjs2: '@alife/alpha-icon/icon.css',
+    }
+  },
   entry: {
-    'list/page-test/entry': './list/page-test/entry',
+    'prometheus': './src/index.jsx',
   },
   output: {
-    path: 'dist/' + packageJson.name + '/',
-    publicPath: '/' + packageJson.name + '/',
-    filename: '[name].js'
+    path: 'lib/',
+    filename: '[name].js',
+    library: 'prometheus',
+    libraryTarget: "commonjs2",
   },
   resolve: {
-    // modulesDirectories: ['node_modules', 'node_modules/@alife'],
     root: [
       path.resolve(__dirname, './node_modules'),
       path.resolve(__dirname, './node_modules/@alife')
@@ -53,12 +65,9 @@ var config = {
       loader: ExtractTextPlugin.extract('@ali/ta-css-loader?modules&localIdentName=[name]__[local]___[hash:base64:5]&importLoaders=1!happypack/loader?id=postcss')
     }]
   },
-  postcss: function (webpack) {
+  postcss: function () {
     return [
       customProperties,
-      autoprefixer({
-        browsers: ['last 2 versions', 'ie 9', 'ie 10']
-      })
     ];
   },
   plugins: [
@@ -70,19 +79,6 @@ var config = {
       id: 'postcss',
       threadPool: happyThreadPool,
       loaders: [ 'postcss-loader' ]
-    }),
-    new webpack.optimize.CommonsChunkPlugin({
-      name: 'common-chunks',
-      minChunks: 3,
-      chunks: [
-        'list/page-list/entry',
-        'list/page-list-rfq/entry',
-        'list/page-recycle/entry',
-      ]
-    }),
-    new webpack.optimize.CommonsChunkPlugin({
-      name: 'vendors',
-      chunks: ['common-chunks']
     }),
     new ExtractTextPlugin('[name].css', {
       allChunks: true
@@ -109,17 +105,6 @@ if (environment === 'production') {
 }
 
 if (environment === 'development') {
-  // config.devtool = 'cheap-module-source-map';
-  // config.plugins.push(new webpack.SourceMapDevToolPlugin({
-  //   test: /\.js$/,
-  //   exclude: [
-  //     'vendors.js',
-  //     'common/entry/browser-upgrade',
-  //   ],
-  //   filename: '[file].map',
-  //   columns: false, // cheap
-  //   module: true // module
-  // }));
   config.plugins.push(new WebpackNotifierPlugin());
 }
 
