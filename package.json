@@ -1,11 +1,11 @@
 {
   "name": "@ali/prometheus",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publishConfig": {
     "registry": "http://registry.npm.alibaba-inc.com"
   },
   "scripts": {
-    "clean": "rimraf dist",
+    "clean": "rimraf lib",
     "dev": "tnpm run clean && NODE_ENV=development webpack --watch --debug --output-pathinfo --progress",
     "build": "tnpm run clean && NODE_ENV=production webpack --bail --progress",
     "lint": "eslint --ext .jsx,.js list/",
@@ -15,8 +15,6 @@
   },
   "devDependencies": {
     "@ali/ta-css-loader": "^0.23.1",
-    "@alife/alpha-apollo": "^2.1.5",
-    "@alife/alpha-icon": "^2.29.0",
     "babel-core": "^6.2.1",
     "babel-loader": "^6.2.0",
     "babel-preset-es2015": "^6.1.18",
@@ -40,5 +38,10 @@
     "rimraf": "^2.5.2",
     "webpack": "^1.12.9",
     "webpack-notifier": "^1.3.0"
+  },
+  "peerDependencies": {
+    "@alife/alpha-icon": "^2.29.0",
+    "react": "^15.0.0",
+    "react-dom": "^15.0.0"
   }
 }

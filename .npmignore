@@ -1,8 +1,6 @@
-**/.*
-package.json
-webpack.config.js
-**/*.md
 **/examples/
 **/docs/
 **/tests/
-src/
+**/.*
+webpack.config.js
+/src/

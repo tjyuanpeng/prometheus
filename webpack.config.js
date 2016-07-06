@@ -12,20 +12,11 @@ var environment = process.env.NODE_ENV || 'development';
 
 var config = {
   stats: { children: false },
-  externals: {
-    'react': {
-      commonjs2: 'react',
-    },
-    'react-css-modules': {
-      commonjs2: 'react-css-modules',
-    },
-    'moment': {
-      commonjs2: 'moment',
-    },
-    '@alife/alpha-icon/icon.css': {
-      commonjs2: '@alife/alpha-icon/icon.css',
-    }
-  },
+  externals: [
+    'react',
+    'react-dom',
+    '@alife/alpha-icon/icon.css'
+  ],
   entry: {
     'prometheus': './src/index.jsx',
   },
