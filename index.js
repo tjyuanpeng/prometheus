@@ -1,2 +1,2 @@
-require('./lib/prometheus.css')
-module.exports = require('./lib/prometheus.js')
+require('./dist/prometheus.css')
+module.exports = require('./dist/prometheus.js')

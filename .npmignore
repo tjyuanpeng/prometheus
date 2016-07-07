@@ -2,5 +2,4 @@
 **/docs/
 **/tests/
 **/.*
-webpack.config.js
-/src/
+/build/
