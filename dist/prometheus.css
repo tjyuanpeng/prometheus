@@ -1,10 +1,3 @@
-.content-module__wrap___3NNxm {
-  color: red;
-}
-.popup-module__popup-wrap___1yX9T {
-  display: block;
-  position: absolute;
-}
 .index-module__clearfix___2UdQr:before,
 .index-module__clearfix___2UdQr:after {
   content:"";
@@ -21,6 +14,13 @@
   word-wrap: normal;
   white-space: nowrap;
   text-overflow: ellipsis;
+}
+.content-module__wrap___3NNxm {
+  color: red;
+}
+.popup-module__popup-wrap___1yX9T {
+  display: block;
+  position: absolute;
 }
 .menu-module__menu___36uCb {
   box-sizing: border-box;
@@ -41,10 +41,7 @@
   padding: 0 16px;
   color: #666;
   list-style: none;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  user-select: none;
 }
 .menu-module__item___2B3fw:hover {
   background-color: #edf1f5;
@@ -135,10 +132,7 @@
   font-style: normal;
   vertical-align: baseline;
   background-color: transparent;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  user-select: none;
   cursor: pointer;
 }
 
@@ -372,10 +366,7 @@ input.split-module__main___UGk3W[type="submit"] {
   line-height: 26px;
   background-color: #fff;
   overflow: hidden;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  user-select: none;
   cursor: default;
 }
 
@@ -887,10 +878,7 @@ input.split-module__main___UGk3W[type="submit"] {
   line-height: 28px;
   text-align: center;
   vertical-align: middle;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  user-select: none;
   cursor: pointer;
 }
 
@@ -917,10 +905,7 @@ input.split-module__main___UGk3W[type="submit"] {
   line-height: 28px;
   text-align: center;
   vertical-align: middle;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  user-select: none;
   cursor: default;
 }
 .list-module__list___1_Eak .list-module__item___1gWaU:last-child {
@@ -972,10 +957,7 @@ input.split-module__main___UGk3W[type="submit"] {
   border-right: 1px solid #dae2ed;
   line-height: 18px;
   vertical-align: middle;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  user-select: none;
   cursor: pointer;
 }
 

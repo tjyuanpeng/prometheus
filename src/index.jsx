@@ -1,3 +1,7 @@
+// load common css and export nothing, make sure its order in the first place
+// such weird way, right?
+export {} from './util/index.module.css'
+
 export * from './icon/'
 export * from './render-in-root/'
 export * from './anchor/'

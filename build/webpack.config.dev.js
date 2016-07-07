@@ -4,8 +4,8 @@ var webpack = require('webpack')
 var ExtractTextPlugin = require('extract-text-webpack-plugin')
 var WebpackNotifierPlugin = require('webpack-notifier')
 var customProperties = require('postcss-custom-properties')
-var HappyPack = require('happypack')
-var happyThreadPool = HappyPack.ThreadPool({ size: 5 })
+// var HappyPack = require('happypack')
+// var happyThreadPool = HappyPack.ThreadPool({ size: 5 })
 
 var config = {
   devServer: {
@@ -23,8 +23,10 @@ var config = {
     libraryTarget: 'commonjs2',
   },
   externals: [
+    'moment',
     'react',
     'react-dom',
+    'react-css-modules',
     '@alife/alpha-icon/icon.css',
   ],
   resolve: {
@@ -45,7 +47,8 @@ var config = {
       loader: ExtractTextPlugin.extract('@ali/ta-css-loader'),
     }, {
       test: /\.module\.css$/,
-      loader: ExtractTextPlugin.extract('@ali/ta-css-loader?modules&localIdentName=[name]__[local]___[hash:base64:5]&importLoaders=1!happypack/loader?id=postcss'),
+      // loader: ExtractTextPlugin.extract('@ali/ta-css-loader?modules&localIdentName=[name]__[local]___[hash:base64:5]&importLoaders=1!happypack/loader?id=postcss'),
+      loader: ExtractTextPlugin.extract('@ali/ta-css-loader?modules&localIdentName=[name]__[local]___[hash:base64:5]&importLoaders=1!postcss'),
     }],
   },
   postcss() {
@@ -54,15 +57,15 @@ var config = {
     ]
   },
   plugins: [
-    new HappyPack({
-      id: 'jsx',
-      threadPool: happyThreadPool,
-    }),
-    new HappyPack({
-      id: 'postcss',
-      threadPool: happyThreadPool,
-      loaders: ['postcss-loader'],
-    }),
+    // new HappyPack({
+    //   id: 'jsx',
+    //   threadPool: happyThreadPool,
+    // }),
+    // new HappyPack({
+    //   id: 'postcss',
+    //   threadPool: happyThreadPool,
+    //   loaders: ['postcss-loader'],
+    // }),
     new ExtractTextPlugin('[name].css', {
       allChunks: true,
     }),
