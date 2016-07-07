@@ -58,7 +58,6 @@
     "webpack-notifier": "^1.3.0"
   },
   "peerDependencies": {
-    "@alife/alpha-apollo": "^2.1.5",
     "@alife/alpha-icon": "^2.29.0",
     "moment": "^2.13.0",
     "react": "^15.0.0",
