@@ -12,17 +12,15 @@
   },
   "main": "index.js",
   "files": [
-    "index.js",
     "dist/prometheus.js",
-    "dist/prometheus.js,map",
     "dist/prometheus.css",
-    "dist/prometheus.css,map"
+    "dist/prometheus.js.map",
+    "dist/prometheus.css.map",
+    "index.js"
   ],
   "scripts": {
     "clean": "rimraf dist",
-    "dev": "tnpm run clean && NODE_ENV=development webpack --config ./build/webpack.config.dev.js --watch --debug --progress",
-    "serverX": "NODE_ENV=development webpack-dev-server --config ./build/webpack.config.server.js --debug --progress",
-    "start": "tnpm run dev & tnpm run serverX",
+    "dev":   "tnpm run clean && NODE_ENV=development webpack-dev-server --config ./build/webpack.config.dev.js --content-base ./examples/ --debug --progress",
     "build": "tnpm run clean && NODE_ENV=production webpack --config ./build/webpack.config.prod.js --bail --progress",
     "lint": "eslint --ext .jsx,.js list/",
     "lint-fix": "eslint --fix --ext .jsx,.js list/"

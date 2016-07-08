@@ -3,7 +3,7 @@ import { render } from 'react-dom'
 
 import '@alife/alpha-apollo/apollo.css'
 
-import { Button, Icon } from '../index.js'
+import { Button, Icon } from '../src/index.jsx'
 
 render(
   <div>

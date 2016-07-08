@@ -9,6 +9,7 @@ var happyThreadPool = HappyPack.ThreadPool({ size: 5 })
 var environment = process.env.NODE_ENV || 'development';
 
 var config = {
+  devtool: 'cheap-module-source-map',
   entry: {
     'prometheus': './src/index.jsx',
   },
@@ -28,7 +29,6 @@ var config = {
   resolve: {
     root: [
       path.resolve(__dirname, '../node_modules'),
-      path.resolve(__dirname, '../node_modules/@alife'),
     ],
     extensions: ['', '.js', '.jsx'],
   },
