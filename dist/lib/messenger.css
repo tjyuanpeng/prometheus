@@ -1,0 +1,116 @@
+.index-module__clearfix___2UdQr:before,
+.index-module__clearfix___2UdQr:after {
+  content:"";
+  display:table;
+}
+
+.index-module__clearfix___2UdQr:after {
+  clear: both;
+}
+
+.index-module__ellipsis___12s4Q {
+  /*max-width: 100%;*/
+  overflow: hidden;
+  word-wrap: normal;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+@keyframes messenger-module__slidein___2enXv {
+  from {
+    top: -40px;
+    opacity: 0.3;
+  }
+  to {
+    top: 16px;
+    opacity: 1;
+  }
+}
+@keyframes messenger-module__slideout___36giN {
+  from {
+    top: 16px;
+    opacity: 1;
+  }
+  to {
+    top: -40px;
+    opacity: 0.3;
+  }
+}
+
+.messenger-module__wrap___3Do3D {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  z-index: 999;
+}
+
+.messenger-module__wrap-animate___2lBHy {
+  animation-duration: .1s;
+  animation-name: messenger-module__slidein___2enXv;
+  animation-fill-mode: both;
+  animation-timing-function: ease-out;
+}
+
+.messenger-module__wrap-animate-end___3Yb2- {
+  animation-duration: .1s;
+  animation-name: messenger-module__slideout___36giN;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in;
+}
+
+.messenger-module__content___3g78K {
+  display: inline-block;
+  box-sizing: border-box;
+  max-width: 40%;
+  padding: 8px 12px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  color: #666;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(83, 100, 122, 0.35);
+}
+
+.messenger-module__icon___1xX6e {
+  display: inline-block;
+  margin-top: -2px;
+  margin-right: 8px;
+  height: 18px;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.messenger-module__content-info___20K9u {
+  background-color: #fff;
+  border-color: #dae2ed;
+}
+
+.messenger-module__content-success___1Lkq6 {
+  background-color: #E8F9E8;
+}
+
+.messenger-module__content-warning___Ki_e- {
+  background-color: #FFF1E8;
+}
+
+.messenger-module__content-error___1bjo4 {
+  background-color: #FAE7E7;
+}
+
+.messenger-module__icon-info___2SKo_ {
+  color: #2db7f5;
+}
+
+.messenger-module__icon-success___2lqtY {
+  color: #2ABF2D;
+}
+
+.messenger-module__icon-warning___2J_hR {
+  color: #FD752C;
+}
+
+.messenger-module__icon-error___1vces {
+  color: #C9181F;
+}

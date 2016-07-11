@@ -1,3 +1,4 @@
+var fs = require('fs')
 var path = require('path')
 var webpack = require('webpack')
 
@@ -8,15 +9,51 @@ var happyThreadPool = HappyPack.ThreadPool({ size: 5 })
 
 var environment = process.env.NODE_ENV || 'development';
 
+function EntryGeneratorPlugin(options) {}
+EntryGeneratorPlugin.prototype.apply = function(compiler) {
+  compiler.plugin('emit', function(compilation, callback) {
+    compilation.chunks.forEach(function(chunk) {
+      var name = path.basename(chunk.name)
+      var content = "module.exports = require('./lib/" + name + ".js')"
+      if (chunk.files.length > 1) {
+        content += "\nrequire('./lib/" + name + ".css')"
+      }
+      var fileName = name
+      compilation.assets[fileName + '.js'] = {
+        source: function() {
+          return content;
+        },
+        size: function() {
+          return content.length;
+        }
+      };
+    });
+
+    callback();
+  });
+};
+
+function getDirectories(srcpath) {
+  return fs.readdirSync(srcpath).filter(function(file) {
+    return fs.statSync(path.join(srcpath, file)).isDirectory();
+  });
+}
+
+var entry = {
+  'lib/index': './src/index.jsx',
+}
+getDirectories(path.resolve(process.cwd(), './src/')).forEach(function(name) {
+  if (name === 'util') {
+    return
+  }
+  entry['lib/' + name] = ['./src/' + name + '/index.jsx']
+})
+
 var config = {
-  devtool: 'cheap-module-source-map',
-  entry: {
-    'prometheus': './src/index.jsx',
-  },
+  entry: entry,
   output: {
-    path: 'dist/',
+    path: './dist',
     filename: '[name].js',
-    library: 'prometheus',
     libraryTarget: 'commonjs2',
   },
   externals: [
@@ -68,6 +105,7 @@ var config = {
     new webpack.DefinePlugin({
       'process.env.NODE_ENV': JSON.stringify(environment),
     }),
+    new EntryGeneratorPlugin(),
   ],
 }
 

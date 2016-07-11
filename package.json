@@ -1,6 +1,6 @@
 {
   "name": "@ali/prometheus",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "description": "alpha component library with react & css module",
   "repository": {
@@ -11,19 +11,17 @@
     "registry": "http://registry.npm.alibaba-inc.com"
   },
   "main": "index.js",
-  "files": [
-    "dist/prometheus.js",
-    "dist/prometheus.css",
-    "dist/prometheus.js.map",
-    "dist/prometheus.css.map",
-    "index.js"
-  ],
   "scripts": {
     "clean": "rimraf dist",
-    "dev":   "tnpm run clean && NODE_ENV=development webpack-dev-server --config ./build/webpack.config.dev.js --content-base ./examples/ --debug --progress",
-    "build": "tnpm run clean && NODE_ENV=production webpack --config ./build/webpack.config.prod.js --bail --progress",
+    "predev": "npm run clean",
+    "dev": "NODE_ENV=development webpack-dev-server --config ./build/webpack.config.dev.js --content-base ./examples/ --debug --progress",
+    "prebuild": "npm run clean",
+    "build": "NODE_ENV=production webpack --config ./build/webpack.config.prod.js --bail --progress",
     "lint": "eslint --ext .jsx,.js list/",
-    "lint-fix": "eslint --fix --ext .jsx,.js list/"
+    "lint-fix": "eslint --fix --ext .jsx,.js list/",
+    "copyfile": "ncp ./package.json ./dist/package.json && ncp ./README.md ./dist/README.md",
+    "removefile": "rimraf ./dist/package.json ./dist/README.md",
+    "pub": "npm run build && npm run copyfile && tnpm publish ./dist && npm run removefile"
   },
   "dependencies": {},
   "devDependencies": {
@@ -42,10 +40,12 @@
     "eslint-plugin-react": "^5.0.1",
     "extract-text-webpack-plugin": "^1.0.1",
     "file-loader": "^0.8.5",
+    "gulp": "^3.9.1",
     "happypack": "^2.1.1",
     "html-loader": "^0.4.3",
     "modular-css": "^0.23.2",
     "moment": "^2.13.0",
+    "ncp": "^2.0.0",
     "postcss-custom-properties": "^5.0.1",
     "postcss-loader": "^0.9.1",
     "react": "^15.1.0",
