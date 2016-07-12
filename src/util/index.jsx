@@ -1,4 +1,3 @@
-
 function connect(...cbs) {
   return function callback(...args) {
     for (const cb of cbs) {
