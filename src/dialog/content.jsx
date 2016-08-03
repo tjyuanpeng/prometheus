@@ -8,7 +8,8 @@ class Content extends Component {
     super(props)
     this.state = {
       scrollControl: false,
-      oldPr: '',
+      oldPr: null,
+      oldOverflow: null,
     }
 
     this.handleEscapePress = this.handleEscapePress.bind(this)
@@ -18,15 +19,19 @@ class Content extends Component {
       window.addEventListener('keyup', this.handleEscapePress)
     }
 
+    // overflow
+    const oldOverflow = document.body.style.overflow
+    document.body.style.overflow = 'hidden'
+    this.state.oldOverflow = oldOverflow
+
+    // scrollbar width fix
     const sw = window.innerWidth - document.body.clientWidth
     if (sw > 0) {
+      this.state.scrollControl = true
+
       const oldPr = document.body.style.paddingRight
       document.body.style.paddingRight = `${sw + (parseFloat(oldPr) || 0)}px`
-      document.body.style.overflow = 'hidden'
-      this.state = {
-        scrollControl: true,
-        oldPr,
-      }
+      this.state.oldPr = oldPr
     }
   }
   componentWillUnmount() {
@@ -34,9 +39,12 @@ class Content extends Component {
       window.removeEventListener('keyup', this.handleEscapePress)
     }
 
+    // overflow
+    document.body.style.overflow = this.state.oldOverflow
+
+    // scrollbar width fix
     if (this.state.scrollControl) {
-      document.body.style.paddingRight = `${this.state.oldPr}`
-      document.body.style.overflow = ''
+      document.body.style.paddingRight = this.state.oldPr
     }
   }
   handleEscapePress(e) {

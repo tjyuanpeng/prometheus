@@ -17,6 +17,28 @@ render(
     </Button>
 
     <ProductSelector />
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <div>
+      end
+    </div>
+
   </div>,
   document.getElementById('app')
 )

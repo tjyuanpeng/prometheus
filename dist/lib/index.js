@@ -616,7 +616,8 @@ module.exports =
 
 	    _this.state = {
 	      scrollControl: false,
-	      oldPr: ''
+	      oldPr: null,
+	      oldOverflow: null
 	    };
 
 	    _this.handleEscapePress = _this.handleEscapePress.bind(_this);
@@ -630,15 +631,19 @@ module.exports =
 	        window.addEventListener('keyup', this.handleEscapePress);
 	      }
 
+	      // overflow
+	      var oldOverflow = document.body.style.overflow;
+	      document.body.style.overflow = 'hidden';
+	      this.state.oldOverflow = oldOverflow;
+
+	      // scrollbar width fix
 	      var sw = window.innerWidth - document.body.clientWidth;
 	      if (sw > 0) {
+	        this.state.scrollControl = true;
+
 	        var oldPr = document.body.style.paddingRight;
 	        document.body.style.paddingRight = sw + (parseFloat(oldPr) || 0) + 'px';
-	        document.body.style.overflow = 'hidden';
-	        this.state = {
-	          scrollControl: true,
-	          oldPr: oldPr
-	        };
+	        this.state.oldPr = oldPr;
 	      }
 	    }
 	  }, {
@@ -648,9 +653,12 @@ module.exports =
 	        window.removeEventListener('keyup', this.handleEscapePress);
 	      }
 
+	      // overflow
+	      document.body.style.overflow = this.state.oldOverflow;
+
+	      // scrollbar width fix
 	      if (this.state.scrollControl) {
-	        document.body.style.paddingRight = '' + this.state.oldPr;
-	        document.body.style.overflow = '';
+	        document.body.style.paddingRight = this.state.oldPr;
 	      }
 	    }
 	  }, {
