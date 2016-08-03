@@ -46,7 +46,7 @@ module.exports =
 /***/ 0:
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(69);
+	module.exports = __webpack_require__(72);
 
 
 /***/ },
@@ -254,7 +254,7 @@ module.exports =
 
 	var _textField = __webpack_require__(15);
 
-	var _jumperModule = __webpack_require__(48);
+	var _jumperModule = __webpack_require__(49);
 
 	var _jumperModule2 = _interopRequireDefault(_jumperModule);
 
@@ -368,7 +368,7 @@ module.exports =
 
 	var _icon = __webpack_require__(3);
 
-	var _listModule = __webpack_require__(49);
+	var _listModule = __webpack_require__(50);
 
 	var _listModule2 = _interopRequireDefault(_listModule);
 
@@ -504,7 +504,7 @@ module.exports =
 
 	var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-	var _sizeSelectorModule = __webpack_require__(51);
+	var _sizeSelectorModule = __webpack_require__(52);
 
 	var _sizeSelectorModule2 = _interopRequireDefault(_sizeSelectorModule);
 
@@ -572,7 +572,7 @@ module.exports =
 
 /***/ },
 
-/***/ 48:
+/***/ 49:
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
@@ -580,7 +580,7 @@ module.exports =
 
 /***/ },
 
-/***/ 49:
+/***/ 50:
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
@@ -588,7 +588,7 @@ module.exports =
 
 /***/ },
 
-/***/ 50:
+/***/ 51:
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
@@ -596,7 +596,7 @@ module.exports =
 
 /***/ },
 
-/***/ 51:
+/***/ 52:
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
@@ -604,7 +604,7 @@ module.exports =
 
 /***/ },
 
-/***/ 69:
+/***/ 72:
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -614,7 +614,7 @@ module.exports =
 	});
 	exports.PageSizeSelector = exports.PageJumper = exports.PageList = exports.Pagination = undefined;
 
-	var _pagination = __webpack_require__(70);
+	var _pagination = __webpack_require__(73);
 
 	var _pagination2 = _interopRequireDefault(_pagination);
 
@@ -639,7 +639,7 @@ module.exports =
 
 /***/ },
 
-/***/ 70:
+/***/ 73:
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -672,7 +672,7 @@ module.exports =
 
 	var _sizeSelector2 = _interopRequireDefault(_sizeSelector);
 
-	var _paginationModule = __webpack_require__(50);
+	var _paginationModule = __webpack_require__(51);
 
 	var _paginationModule2 = _interopRequireDefault(_paginationModule);
 

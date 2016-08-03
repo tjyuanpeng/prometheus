@@ -1,0 +1,22 @@
+.wrap {
+  overflow: hidden;
+}
+
+.dialog-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.list {
+  margin-top: 20px;
+  width: 560px;
+}
+
+.actions {
+  margin-top: 20px;
+}
+
+.cancel-btn {
+  margin-left: 20px;
+  cursor: pointer;
+}

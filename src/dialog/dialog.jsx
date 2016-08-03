@@ -29,7 +29,7 @@ class Dialog extends Component {
       document.body.appendChild(this.wrap)
     }
 
-    render(props.open ? <Content {...props} /> : null, this.wrap)
+    render(props.open ? <Content {...props} /> : <noscript />, this.wrap)
   }
   render() {
     return null

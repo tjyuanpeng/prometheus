@@ -46,7 +46,7 @@ module.exports =
 /***/ 0:
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(66);
+	module.exports = __webpack_require__(67);
 
 
 /***/ },
@@ -162,7 +162,7 @@ module.exports =
 
 /***/ },
 
-/***/ 66:
+/***/ 67:
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -172,7 +172,7 @@ module.exports =
 	});
 	exports.messengerStatic = undefined;
 
-	var _messengerStatic = __webpack_require__(67);
+	var _messengerStatic = __webpack_require__(68);
 
 	var _messengerStatic2 = _interopRequireDefault(_messengerStatic);
 
@@ -182,7 +182,7 @@ module.exports =
 
 /***/ },
 
-/***/ 67:
+/***/ 68:
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -225,7 +225,7 @@ module.exports =
 
 	var _reactDom = __webpack_require__(4);
 
-	var _messenger = __webpack_require__(68);
+	var _messenger = __webpack_require__(69);
 
 	var _messenger2 = _interopRequireDefault(_messenger);
 
@@ -233,7 +233,7 @@ module.exports =
 
 /***/ },
 
-/***/ 68:
+/***/ 69:
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';

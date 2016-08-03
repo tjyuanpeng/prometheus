@@ -46,7 +46,7 @@ module.exports =
 /***/ 0:
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(79);
+	module.exports = __webpack_require__(82);
 
 
 /***/ },
@@ -189,7 +189,7 @@ module.exports =
 
 	var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-	var _paneModule = __webpack_require__(56);
+	var _paneModule = __webpack_require__(57);
 
 	var _paneModule2 = _interopRequireDefault(_paneModule);
 
@@ -467,7 +467,7 @@ module.exports =
 
 /***/ },
 
-/***/ 56:
+/***/ 57:
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
@@ -475,14 +475,14 @@ module.exports =
 
 /***/ },
 
-/***/ 57:
+/***/ 58:
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
 
-/***/ 78:
+/***/ 81:
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -590,7 +590,7 @@ module.exports =
 
 /***/ },
 
-/***/ 79:
+/***/ 82:
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -608,7 +608,7 @@ module.exports =
 
 	var _navItem2 = _interopRequireDefault(_navItem);
 
-	var _tab = __webpack_require__(80);
+	var _tab = __webpack_require__(83);
 
 	var _tab2 = _interopRequireDefault(_tab);
 
@@ -616,7 +616,7 @@ module.exports =
 
 	var _pane2 = _interopRequireDefault(_pane);
 
-	var _drawer = __webpack_require__(78);
+	var _drawer = __webpack_require__(81);
 
 	var _drawer2 = _interopRequireDefault(_drawer);
 
@@ -635,7 +635,7 @@ module.exports =
 
 /***/ },
 
-/***/ 80:
+/***/ 83:
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -664,7 +664,7 @@ module.exports =
 
 	var _pane2 = _interopRequireDefault(_pane);
 
-	var _tabModule = __webpack_require__(57);
+	var _tabModule = __webpack_require__(58);
 
 	var _tabModule2 = _interopRequireDefault(_tabModule);
 

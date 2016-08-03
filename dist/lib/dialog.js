@@ -45,7 +45,7 @@ module.exports =
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(65);
+	module.exports = __webpack_require__(66);
 
 
 /***/ },
@@ -1562,7 +1562,8 @@ module.exports =
 /* 58 */,
 /* 59 */,
 /* 60 */,
-/* 61 */
+/* 61 */,
+/* 62 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1612,7 +1613,7 @@ module.exports =
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 /***/ },
-/* 62 */
+/* 63 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1660,7 +1661,7 @@ module.exports =
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 /***/ },
-/* 63 */
+/* 64 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1706,7 +1707,7 @@ module.exports =
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 /***/ },
-/* 64 */
+/* 65 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1776,7 +1777,7 @@ module.exports =
 	        document.body.appendChild(this.wrap);
 	      }
 
-	      (0, _reactDom.render)(props.open ? _react2.default.createElement(_content2.default, props) : null, this.wrap);
+	      (0, _reactDom.render)(props.open ? _react2.default.createElement(_content2.default, props) : _react2.default.createElement('noscript', null), this.wrap);
 	    }
 	  }, {
 	    key: 'render',
@@ -1795,7 +1796,7 @@ module.exports =
 	exports.default = Dialog;
 
 /***/ },
-/* 65 */
+/* 66 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1805,7 +1806,7 @@ module.exports =
 	});
 	exports.Closer = exports.alertStatic = exports.Alert = exports.confirmStatic = exports.Confirm = exports.dialogStatic = exports.DialogContent = exports.Dialog = undefined;
 
-	var _dialog = __webpack_require__(64);
+	var _dialog = __webpack_require__(65);
 
 	var _dialog2 = _interopRequireDefault(_dialog);
 
@@ -1813,7 +1814,7 @@ module.exports =
 
 	var _content2 = _interopRequireDefault(_content);
 
-	var _dialogStatic = __webpack_require__(63);
+	var _dialogStatic = __webpack_require__(64);
 
 	var _dialogStatic2 = _interopRequireDefault(_dialogStatic);
 
@@ -1821,7 +1822,7 @@ module.exports =
 
 	var _confirm2 = _interopRequireDefault(_confirm);
 
-	var _confirmStatic = __webpack_require__(62);
+	var _confirmStatic = __webpack_require__(63);
 
 	var _confirmStatic2 = _interopRequireDefault(_confirmStatic);
 
@@ -1829,7 +1830,7 @@ module.exports =
 
 	var _alert2 = _interopRequireDefault(_alert);
 
-	var _alertStatic = __webpack_require__(61);
+	var _alertStatic = __webpack_require__(62);
 
 	var _alertStatic2 = _interopRequireDefault(_alertStatic);
 

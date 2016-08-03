@@ -46,7 +46,7 @@ module.exports =
 /***/ 0:
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(85);
+	module.exports = __webpack_require__(70);
 
 
 /***/ },
@@ -65,125 +65,27 @@ module.exports =
 
 /***/ },
 
-/***/ 4:
-/***/ function(module, exports) {
+/***/ 3:
+/***/ function(module, exports, __webpack_require__) {
 
-	module.exports = require("react-dom");
-
-/***/ },
-
-/***/ 16:
-/***/ function(module, exports) {
-
-	"use strict";
+	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
+	exports.Icon = undefined;
 
-	function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }
+	var _icon = __webpack_require__(5);
 
-	function connect() {
-	  for (var _len = arguments.length, cbs = Array(_len), _key = 0; _key < _len; _key++) {
-	    cbs[_key] = arguments[_key];
-	  }
+	var _icon2 = _interopRequireDefault(_icon);
 
-	  return function callback() {
-	    for (var _len2 = arguments.length, args = Array(_len2), _key2 = 0; _key2 < _len2; _key2++) {
-	      args[_key2] = arguments[_key2];
-	    }
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	    var _iteratorNormalCompletion = true;
-	    var _didIteratorError = false;
-	    var _iteratorError = undefined;
-
-	    try {
-	      for (var _iterator = cbs[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
-	        var cb = _step.value;
-
-	        if (cb) {
-	          cb.apply(this, args);
-	        }
-	      }
-	    } catch (err) {
-	      _didIteratorError = true;
-	      _iteratorError = err;
-	    } finally {
-	      try {
-	        if (!_iteratorNormalCompletion && _iterator.return) {
-	          _iterator.return();
-	        }
-	      } finally {
-	        if (_didIteratorError) {
-	          throw _iteratorError;
-	        }
-	      }
-	    }
-	  };
-	}
-
-	function promiseThrottle(func) {
-	  var gap = arguments.length <= 1 || arguments[1] === undefined ? 300 : arguments[1];
-
-	  var canRun = true;
-	  var lastArgs = void 0;
-	  var lastResolve = void 0;
-	  var lastReject = void 0;
-
-	  function delay() {
-	    setTimeout(function () {
-	      if (canRun) {
-	        func.apply(undefined, _toConsumableArray(lastArgs)).then(lastResolve, lastReject);
-	      } else {
-	        delay();
-	      }
-	    }, gap);
-	  }
-
-	  return function hof() {
-	    for (var _len3 = arguments.length, args = Array(_len3), _key3 = 0; _key3 < _len3; _key3++) {
-	      args[_key3] = arguments[_key3];
-	    }
-
-	    var p = void 0;
-	    if (canRun) {
-	      canRun = false;
-	      p = new Promise(function (resolve, reject) {
-	        func.apply(undefined, args).then(resolve, reject);
-	      });
-	    } else {
-	      p = new Promise(function (resolve, reject) {
-	        lastArgs = args;
-	        lastResolve = resolve;
-	        lastReject = reject;
-	      });
-	      delay();
-	    }
-
-	    p.then(function () {
-	      canRun = true;
-	    }, function (e) {
-	      canRun = true;
-	      throw e;
-	    });
-	    return p;
-	  };
-	}
-
-	exports.connect = connect;
-	exports.promiseThrottle = promiseThrottle;
+	exports.Icon = _icon2.default;
 
 /***/ },
 
-/***/ 59:
-/***/ function(module, exports) {
-
-	// removed by extract-text-webpack-plugin
-	module.exports = {"wrap":"content-module__wrap___3NfuE"};
-
-/***/ },
-
-/***/ 84:
+/***/ 5:
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -204,9 +106,7 @@ module.exports =
 
 	var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-	var _contentModule = __webpack_require__(59);
-
-	var _contentModule2 = _interopRequireDefault(_contentModule);
+	__webpack_require__(6);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -216,34 +116,46 @@ module.exports =
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var Content = function (_Component) {
-	  _inherits(Content, _Component);
+	var Icon = function (_Component) {
+	  _inherits(Icon, _Component);
 
-	  function Content() {
-	    _classCallCheck(this, Content);
+	  function Icon() {
+	    _classCallCheck(this, Icon);
 
-	    return _possibleConstructorReturn(this, Object.getPrototypeOf(Content).apply(this, arguments));
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(Icon).apply(this, arguments));
 	  }
 
-	  _createClass(Content, [{
+	  _createClass(Icon, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(
-	        'div',
-	        _extends({}, this.props, { styleName: 'wrap' }),
-	        this.props.children
-	      );
+	      var extra = this.props.className || '';
+	      return _react2.default.createElement('i', _extends({}, this.props, { className: 'ui2-icon ui2-icon-' + this.props.type + ' ' + extra }));
 	    }
 	  }]);
 
-	  return Content;
+	  return Icon;
 	}(_react.Component);
 
-	exports.default = (0, _reactCssModules2.default)(Content, _contentModule2.default);
+	exports.default = (0, _reactCssModules2.default)(Icon, {});
 
 /***/ },
 
-/***/ 85:
+/***/ 6:
+/***/ function(module, exports) {
+
+	module.exports = require("@alife/alpha-icon/icon.css");
+
+/***/ },
+
+/***/ 48:
+/***/ function(module, exports) {
+
+	// removed by extract-text-webpack-plugin
+	module.exports = {"wrap":"notice-module__wrap___3jFlX","wrap-info":"notice-module__wrap-info___10Tqp","wrap-warning":"notice-module__wrap-warning___QQWmE","wrap-remind":"notice-module__wrap-remind___3ISjQ","wrap-large":"notice-module__wrap-large___25u8D","content":"notice-module__content___11hS6","closer-wrap":"notice-module__closer-wrap___3zMDl","closer":"notice-module__closer___1GZi3","icon":"notice-module__icon___1nPF_","icon-large":"notice-module__icon-large___31F4G","icon-info":"notice-module__icon-info___3Euth notice-module__icon___1nPF_","icon-warning":"notice-module__icon-warning___1_mR8 notice-module__icon___1nPF_","icon-remind":"notice-module__icon-remind___1Rs4L notice-module__icon___1nPF_"};
+
+/***/ },
+
+/***/ 70:
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -251,19 +163,19 @@ module.exports =
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
-	exports.Tip = undefined;
+	exports.Notice = undefined;
 
-	var _tip = __webpack_require__(86);
+	var _notice = __webpack_require__(71);
 
-	var _tip2 = _interopRequireDefault(_tip);
+	var _notice2 = _interopRequireDefault(_notice);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	exports.Tip = _tip2.default;
+	exports.Notice = _notice2.default;
 
 /***/ },
 
-/***/ 86:
+/***/ 71:
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -278,13 +190,15 @@ module.exports =
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _reactDom = __webpack_require__(4);
+	var _reactCssModules = __webpack_require__(2);
 
-	var _util = __webpack_require__(16);
+	var _reactCssModules2 = _interopRequireDefault(_reactCssModules);
 
-	var _content = __webpack_require__(84);
+	var _icon = __webpack_require__(3);
 
-	var _content2 = _interopRequireDefault(_content);
+	var _noticeModule = __webpack_require__(48);
+
+	var _noticeModule2 = _interopRequireDefault(_noticeModule);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -294,86 +208,98 @@ module.exports =
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var Tip = function (_Component) {
-	  _inherits(Tip, _Component);
+	var Notice = function (_Component) {
+	  _inherits(Notice, _Component);
 
-	  function Tip(props) {
-	    _classCallCheck(this, Tip);
+	  function Notice(props) {
+	    _classCallCheck(this, Notice);
 
-	    var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(Tip).call(this, props));
+	    var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(Notice).call(this, props));
 
-	    _this.state = {
-	      open: false
-	    };
-
-	    _this.handleMove = _this.handleMove.bind(_this);
 	    _this.handleClose = _this.handleClose.bind(_this);
 	    return _this;
 	  }
 
-	  _createClass(Tip, [{
-	    key: 'componentWillUnmount',
-	    value: function componentWillUnmount() {
-	      if (this.wrap) {
-	        (0, _reactDom.unmountComponentAtNode)(this.wrap);
-	        document.body.removeChild(this.wrap);
-	      }
-	    }
-	  }, {
-	    key: 'handleMove',
-	    value: function handleMove(e) {
-	      var pageY = e.pageY;
-	      var pageX = e.pageX;
-
-	      this.renderContent(true, pageY + 20, pageX);
-	    }
-	  }, {
+	  _createClass(Notice, [{
 	    key: 'handleClose',
 	    value: function handleClose() {
-	      this.renderContent(false);
+	      if (this.props.onClose) {
+	        this.props.onClose();
+	      }
 	    }
 	  }, {
-	    key: 'renderContent',
-	    value: function renderContent(open, top, left) {
-	      if (!this.wrap) {
-	        this.wrap = document.createElement('div');
-	        document.body.appendChild(this.wrap);
+	    key: 'renderIcon',
+	    value: function renderIcon() {
+	      var large = '';
+	      if (this.props.large) {
+	        large = ' icon-large';
 	      }
-	      var style = {
-	        display: open ? 'block' : 'none',
-	        position: 'absolute',
-	        top: top,
-	        left: left
-	      };
-	      (0, _reactDom.render)(_react2.default.createElement(
-	        'div',
-	        { style: style },
-	        _react2.default.createElement(
-	          _content2.default,
-	          this.props,
-	          this.props.title
-	        )
-	      ), this.wrap);
+
+	      if (this.props.type === 'info') {
+	        return _react2.default.createElement(_icon.Icon, { type: 'notice', styleName: 'icon-info' + large });
+	      } else if (this.props.type === 'warning') {
+	        return _react2.default.createElement(_icon.Icon, { type: 'warning', styleName: 'icon-warning' + large });
+	      } else if (this.props.type === 'remind') {
+	        return _react2.default.createElement(_icon.Icon, { type: 'smile', styleName: 'icon-remind' + large });
+	      }
+
+	      return null;
+	    }
+	  }, {
+	    key: 'renderCloser',
+	    value: function renderCloser() {
+	      if (this.props.hasCloser) {
+	        return _react2.default.createElement(
+	          'div',
+	          { styleName: 'closer-wrap' },
+	          _react2.default.createElement(_icon.Icon, { type: 'cross', styleName: 'closer', onClick: this.handleClose })
+	        );
+	      }
+
+	      return null;
 	    }
 	  }, {
 	    key: 'render',
 	    value: function render() {
-	      var child = _react2.default.Children.only(this.props.children);
-	      var childProps = child.props || {};
-	      var newProps = {
-	        onMouseMove: (0, _util.connect)(childProps.onMouseEnter, this.handleMove),
-	        onMouseLeave: (0, _util.connect)(childProps.onMouseLeave, this.handleClose)
-	      };
-	      return (0, _react.cloneElement)(child, newProps);
+	      var styleName = 'wrap';
+
+	      if (this.props.type === 'info') {
+	        styleName += ' wrap-info';
+	      } else if (this.props.type === 'warning') {
+	        styleName += ' wrap-warning';
+	      } else if (this.props.type === 'remind') {
+	        styleName += ' wrap-remind';
+	      }
+
+	      if (this.props.large) {
+	        styleName += ' wrap-large';
+	      }
+
+	      return _react2.default.createElement(
+	        'div',
+	        { styleName: styleName },
+	        this.renderIcon(),
+	        _react2.default.createElement(
+	          'div',
+	          { styleName: 'content' },
+	          this.props.children
+	        ),
+	        this.renderCloser()
+	      );
 	    }
 	  }]);
 
-	  return Tip;
+	  return Notice;
 	}(_react.Component);
 
-	Tip.defaultProps = {};
+	Notice.defaultProps = {
+	  type: 'info',
+	  large: false,
+	  hasCloser: false,
+	  hasBorder: false
+	};
 
-	exports.default = Tip;
+	exports.default = (0, _reactCssModules2.default)(Notice, _noticeModule2.default, { allowMultiple: true });
 
 /***/ }
 
