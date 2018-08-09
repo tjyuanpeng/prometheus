@@ -1,0 +1,794 @@
+@import "@alife/alpha-apollo/apollo";
+.ui2-icon-flag-m {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	background-image: url(./src/img/sprites/e87007e1.png);
+	background-repeat: no-repeat;
+}
+.ui2-icon-flag-ad.ui2-icon-flag-m {
+	background-position:-416px -144px;
+}
+.ui2-icon-flag-ae.ui2-icon-flag-m {
+	background-position:-488px -408px;
+}
+.ui2-icon-flag-af.ui2-icon-flag-m {
+	background-position:-416px -24px;
+}
+.ui2-icon-flag-ag.ui2-icon-flag-m {
+	background-position:-416px -48px;
+}
+.ui2-icon-flag-ai.ui2-icon-flag-m {
+	background-position:-416px -72px;
+}
+.ui2-icon-flag-al.ui2-icon-flag-m {
+	background-position:-416px -96px;
+}
+.ui2-icon-flag-ala.ui2-icon-flag-m {
+	background-position:-416px -120px;
+}
+.ui2-icon-flag-all.ui2-icon-flag-m {
+	background-position:0 0;
+}
+.ui2-icon-flag-am.ui2-icon-flag-m {
+	background-position:-416px -168px;
+}
+.ui2-icon-flag-an.ui2-icon-flag-m {
+	background-position:-416px -192px;
+}
+.ui2-icon-flag-ao.ui2-icon-flag-m {
+	background-position:-416px -216px;
+}
+.ui2-icon-flag-aq.ui2-icon-flag-m {
+	background-position:-416px -240px;
+}
+.ui2-icon-flag-ar.ui2-icon-flag-m {
+	background-position:-416px -264px;
+}
+.ui2-icon-flag-as.ui2-icon-flag-m {
+	background-position:-416px -288px;
+}
+.ui2-icon-flag-at.ui2-icon-flag-m {
+	background-position:-416px -312px;
+}
+.ui2-icon-flag-au.ui2-icon-flag-m {
+	background-position:-416px -336px;
+}
+.ui2-icon-flag-aw.ui2-icon-flag-m {
+	background-position:-416px -360px;
+}
+.ui2-icon-flag-az.ui2-icon-flag-m {
+	background-position:-416px -384px;
+}
+.ui2-icon-flag-ba.ui2-icon-flag-m {
+	background-position:0 -416px;
+}
+.ui2-icon-flag-bb.ui2-icon-flag-m {
+	background-position:-24px -416px;
+}
+.ui2-icon-flag-bd.ui2-icon-flag-m {
+	background-position:-48px -416px;
+}
+.ui2-icon-flag-be.ui2-icon-flag-m {
+	background-position:-72px -416px;
+}
+.ui2-icon-flag-bf.ui2-icon-flag-m {
+	background-position:-96px -416px;
+}
+.ui2-icon-flag-bg.ui2-icon-flag-m {
+	background-position:-120px -416px;
+}
+.ui2-icon-flag-bh.ui2-icon-flag-m {
+	background-position:-144px -416px;
+}
+.ui2-icon-flag-bi.ui2-icon-flag-m {
+	background-position:-168px -416px;
+}
+.ui2-icon-flag-bj.ui2-icon-flag-m {
+	background-position:-192px -416px;
+}
+.ui2-icon-flag-blm.ui2-icon-flag-m {
+	background-position:-216px -416px;
+}
+.ui2-icon-flag-bm.ui2-icon-flag-m {
+	background-position:-240px -416px;
+}
+.ui2-icon-flag-bn.ui2-icon-flag-m {
+	background-position:-264px -416px;
+}
+.ui2-icon-flag-bo.ui2-icon-flag-m {
+	background-position:-288px -416px;
+}
+.ui2-icon-flag-br.ui2-icon-flag-m {
+	background-position:-312px -416px;
+}
+.ui2-icon-flag-bs.ui2-icon-flag-m {
+	background-position:-336px -416px;
+}
+.ui2-icon-flag-bt.ui2-icon-flag-m {
+	background-position:-360px -416px;
+}
+.ui2-icon-flag-bv.ui2-icon-flag-m {
+	background-position:-384px -416px;
+}
+.ui2-icon-flag-bw.ui2-icon-flag-m {
+	background-position:-408px -416px;
+}
+.ui2-icon-flag-by.ui2-icon-flag-m {
+	background-position:-440px 0;
+}
+.ui2-icon-flag-bz.ui2-icon-flag-m {
+	background-position:-440px -24px;
+}
+.ui2-icon-flag-ca.ui2-icon-flag-m {
+	background-position:-440px -48px;
+}
+.ui2-icon-flag-cc.ui2-icon-flag-m {
+	background-position:-440px -72px;
+}
+.ui2-icon-flag-cf.ui2-icon-flag-m {
+	background-position:-440px -96px;
+}
+.ui2-icon-flag-cg.ui2-icon-flag-m {
+	background-position:-440px -120px;
+}
+.ui2-icon-flag-ch.ui2-icon-flag-m {
+	background-position:-440px -144px;
+}
+.ui2-icon-flag-ci.ui2-icon-flag-m {
+	background-position:-440px -168px;
+}
+.ui2-icon-flag-ck.ui2-icon-flag-m {
+	background-position:-440px -192px;
+}
+.ui2-icon-flag-cl.ui2-icon-flag-m {
+	background-position:-440px -216px;
+}
+.ui2-icon-flag-cm.ui2-icon-flag-m {
+	background-position:-440px -240px;
+}
+.ui2-icon-flag-cn.ui2-icon-flag-m {
+	background-position:-440px -264px;
+}
+.ui2-icon-flag-co.ui2-icon-flag-m {
+	background-position:-440px -288px;
+}
+.ui2-icon-flag-cr.ui2-icon-flag-m {
+	background-position:-440px -312px;
+}
+.ui2-icon-flag-cu.ui2-icon-flag-m {
+	background-position:-440px -336px;
+}
+.ui2-icon-flag-cv.ui2-icon-flag-m {
+	background-position:-440px -360px;
+}
+.ui2-icon-flag-cx.ui2-icon-flag-m {
+	background-position:-440px -384px;
+}
+.ui2-icon-flag-cy.ui2-icon-flag-m {
+	background-position:-440px -408px;
+}
+.ui2-icon-flag-cz.ui2-icon-flag-m {
+	background-position:0 -440px;
+}
+.ui2-icon-flag-de.ui2-icon-flag-m {
+	background-position:-24px -440px;
+}
+.ui2-icon-flag-dj.ui2-icon-flag-m {
+	background-position:-48px -440px;
+}
+.ui2-icon-flag-dk.ui2-icon-flag-m {
+	background-position:-72px -440px;
+}
+.ui2-icon-flag-dm.ui2-icon-flag-m {
+	background-position:-96px -440px;
+}
+.ui2-icon-flag-do.ui2-icon-flag-m {
+	background-position:-120px -440px;
+}
+.ui2-icon-flag-dz.ui2-icon-flag-m {
+	background-position:-144px -440px;
+}
+.ui2-icon-flag-eaz.ui2-icon-flag-m {
+	background-position:-168px -440px;
+}
+.ui2-icon-flag-ec.ui2-icon-flag-m {
+	background-position:-192px -440px;
+}
+.ui2-icon-flag-ee.ui2-icon-flag-m {
+	background-position:-216px -440px;
+}
+.ui2-icon-flag-eg.ui2-icon-flag-m {
+	background-position:-240px -440px;
+}
+.ui2-icon-flag-eh.ui2-icon-flag-m {
+	background-position:-264px -440px;
+}
+.ui2-icon-flag-er.ui2-icon-flag-m {
+	background-position:-288px -440px;
+}
+.ui2-icon-flag-es.ui2-icon-flag-m {
+	background-position:-312px -440px;
+}
+.ui2-icon-flag-et.ui2-icon-flag-m {
+	background-position:-336px -440px;
+}
+.ui2-icon-flag-fi.ui2-icon-flag-m {
+	background-position:-360px -440px;
+}
+.ui2-icon-flag-fj.ui2-icon-flag-m {
+	background-position:-384px -440px;
+}
+.ui2-icon-flag-fk.ui2-icon-flag-m {
+	background-position:-408px -440px;
+}
+.ui2-icon-flag-fm.ui2-icon-flag-m {
+	background-position:-432px -440px;
+}
+.ui2-icon-flag-fo.ui2-icon-flag-m {
+	background-position:-464px 0;
+}
+.ui2-icon-flag-fr.ui2-icon-flag-m {
+	background-position:-464px -24px;
+}
+.ui2-icon-flag-fx.ui2-icon-flag-m {
+	background-position:-464px -48px;
+}
+.ui2-icon-flag-ga.ui2-icon-flag-m {
+	background-position:-464px -72px;
+}
+.ui2-icon-flag-gd.ui2-icon-flag-m {
+	background-position:-464px -96px;
+}
+.ui2-icon-flag-ge.ui2-icon-flag-m {
+	background-position:-464px -120px;
+}
+.ui2-icon-flag-gf.ui2-icon-flag-m {
+	background-position:-464px -144px;
+}
+.ui2-icon-flag-ggy.ui2-icon-flag-m {
+	background-position:-464px -168px;
+}
+.ui2-icon-flag-gh.ui2-icon-flag-m {
+	background-position:-464px -192px;
+}
+.ui2-icon-flag-gi.ui2-icon-flag-m {
+	background-position:-464px -216px;
+}
+.ui2-icon-flag-gl.ui2-icon-flag-m {
+	background-position:-464px -240px;
+}
+.ui2-icon-flag-gm.ui2-icon-flag-m {
+	background-position:-464px -264px;
+}
+.ui2-icon-flag-gn.ui2-icon-flag-m {
+	background-position:-464px -288px;
+}
+.ui2-icon-flag-gp.ui2-icon-flag-m {
+	background-position:-464px -312px;
+}
+.ui2-icon-flag-gq.ui2-icon-flag-m {
+	background-position:-464px -336px;
+}
+.ui2-icon-flag-gr.ui2-icon-flag-m {
+	background-position:-464px -360px;
+}
+.ui2-icon-flag-gs.ui2-icon-flag-m {
+	background-position:-464px -384px;
+}
+.ui2-icon-flag-gt.ui2-icon-flag-m {
+	background-position:-464px -408px;
+}
+.ui2-icon-flag-gu.ui2-icon-flag-m {
+	background-position:-464px -432px;
+}
+.ui2-icon-flag-gw.ui2-icon-flag-m {
+	background-position:0 -464px;
+}
+.ui2-icon-flag-gy.ui2-icon-flag-m {
+	background-position:-24px -464px;
+}
+.ui2-icon-flag-hk.ui2-icon-flag-m {
+	background-position:-48px -464px;
+}
+.ui2-icon-flag-hm.ui2-icon-flag-m {
+	background-position:-72px -464px;
+}
+.ui2-icon-flag-hn.ui2-icon-flag-m {
+	background-position:-96px -464px;
+}
+.ui2-icon-flag-hr.ui2-icon-flag-m {
+	background-position:-120px -464px;
+}
+.ui2-icon-flag-ht.ui2-icon-flag-m {
+	background-position:-144px -464px;
+}
+.ui2-icon-flag-hu.ui2-icon-flag-m {
+	background-position:-168px -464px;
+}
+.ui2-icon-flag-id.ui2-icon-flag-m {
+	background-position:-192px -464px;
+}
+.ui2-icon-flag-ie.ui2-icon-flag-m {
+	background-position:-216px -464px;
+}
+.ui2-icon-flag-il.ui2-icon-flag-m {
+	background-position:-240px -464px;
+}
+.ui2-icon-flag-im.ui2-icon-flag-m {
+	background-position:-264px -464px;
+}
+.ui2-icon-flag-in.ui2-icon-flag-m {
+	background-position:-288px -464px;
+}
+.ui2-icon-flag-io.ui2-icon-flag-m {
+	background-position:-312px -464px;
+}
+.ui2-icon-flag-iq.ui2-icon-flag-m {
+	background-position:-336px -464px;
+}
+.ui2-icon-flag-ir.ui2-icon-flag-m {
+	background-position:-360px -464px;
+}
+.ui2-icon-flag-is.ui2-icon-flag-m {
+	background-position:-384px -464px;
+}
+.ui2-icon-flag-it.ui2-icon-flag-m {
+	background-position:-408px -464px;
+}
+.ui2-icon-flag-je.ui2-icon-flag-m {
+	background-position:-432px -464px;
+}
+.ui2-icon-flag-jey.ui2-icon-flag-m {
+	background-position:-456px -464px;
+}
+.ui2-icon-flag-jm.ui2-icon-flag-m {
+	background-position:-488px 0;
+}
+.ui2-icon-flag-jo.ui2-icon-flag-m {
+	background-position:-488px -24px;
+}
+.ui2-icon-flag-jp.ui2-icon-flag-m {
+	background-position:-488px -48px;
+}
+.ui2-icon-flag-ke.ui2-icon-flag-m {
+	background-position:-488px -72px;
+}
+.ui2-icon-flag-kg.ui2-icon-flag-m {
+	background-position:-488px -96px;
+}
+.ui2-icon-flag-kh.ui2-icon-flag-m {
+	background-position:-488px -120px;
+}
+.ui2-icon-flag-ki.ui2-icon-flag-m {
+	background-position:-488px -144px;
+}
+.ui2-icon-flag-km.ui2-icon-flag-m {
+	background-position:-488px -168px;
+}
+.ui2-icon-flag-kn.ui2-icon-flag-m {
+	background-position:-488px -192px;
+}
+.ui2-icon-flag-kp.ui2-icon-flag-m {
+	background-position:-488px -216px;
+}
+.ui2-icon-flag-kr.ui2-icon-flag-m {
+	background-position:-488px -240px;
+}
+.ui2-icon-flag-ks.ui2-icon-flag-m {
+	background-position:-488px -264px;
+}
+.ui2-icon-flag-kw.ui2-icon-flag-m {
+	background-position:-488px -288px;
+}
+.ui2-icon-flag-ky.ui2-icon-flag-m {
+	background-position:-488px -312px;
+}
+.ui2-icon-flag-kz.ui2-icon-flag-m {
+	background-position:-488px -336px;
+}
+.ui2-icon-flag-la.ui2-icon-flag-m {
+	background-position:-488px -360px;
+}
+.ui2-icon-flag-lb.ui2-icon-flag-m {
+	background-position:-488px -384px;
+}
+.ui2-icon-flag-lc.ui2-icon-flag-m {
+	background-position:-416px 0;
+}
+.ui2-icon-flag-li.ui2-icon-flag-m {
+	background-position:-488px -432px;
+}
+.ui2-icon-flag-lk.ui2-icon-flag-m {
+	background-position:-488px -456px;
+}
+.ui2-icon-flag-lr.ui2-icon-flag-m {
+	background-position:0 -488px;
+}
+.ui2-icon-flag-ls.ui2-icon-flag-m {
+	background-position:-24px -488px;
+}
+.ui2-icon-flag-lt.ui2-icon-flag-m {
+	background-position:-48px -488px;
+}
+.ui2-icon-flag-lu.ui2-icon-flag-m {
+	background-position:-72px -488px;
+}
+.ui2-icon-flag-lv.ui2-icon-flag-m {
+	background-position:-96px -488px;
+}
+.ui2-icon-flag-ly.ui2-icon-flag-m {
+	background-position:-120px -488px;
+}
+.ui2-icon-flag-ma.ui2-icon-flag-m {
+	background-position:-144px -488px;
+}
+.ui2-icon-flag-maf.ui2-icon-flag-m {
+	background-position:-168px -488px;
+}
+.ui2-icon-flag-mc.ui2-icon-flag-m {
+	background-position:-192px -488px;
+}
+.ui2-icon-flag-md.ui2-icon-flag-m {
+	background-position:-216px -488px;
+}
+.ui2-icon-flag-me.ui2-icon-flag-m {
+	background-position:-240px -488px;
+}
+.ui2-icon-flag-mf.ui2-icon-flag-m {
+	background-position:-264px -488px;
+}
+.ui2-icon-flag-mg.ui2-icon-flag-m {
+	background-position:-288px -488px;
+}
+.ui2-icon-flag-mh.ui2-icon-flag-m {
+	background-position:-312px -488px;
+}
+.ui2-icon-flag-mk.ui2-icon-flag-m {
+	background-position:-336px -488px;
+}
+.ui2-icon-flag-ml.ui2-icon-flag-m {
+	background-position:-360px -488px;
+}
+.ui2-icon-flag-mm.ui2-icon-flag-m {
+	background-position:-384px -488px;
+}
+.ui2-icon-flag-mn.ui2-icon-flag-m {
+	background-position:-408px -488px;
+}
+.ui2-icon-flag-mne.ui2-icon-flag-m {
+	background-position:-432px -488px;
+}
+.ui2-icon-flag-mo.ui2-icon-flag-m {
+	background-position:-456px -488px;
+}
+.ui2-icon-flag-mp.ui2-icon-flag-m {
+	background-position:-480px -488px;
+}
+.ui2-icon-flag-mq.ui2-icon-flag-m {
+	background-position:-512px 0;
+}
+.ui2-icon-flag-mr.ui2-icon-flag-m {
+	background-position:-512px -24px;
+}
+.ui2-icon-flag-ms.ui2-icon-flag-m {
+	background-position:-512px -48px;
+}
+.ui2-icon-flag-mt.ui2-icon-flag-m {
+	background-position:-512px -72px;
+}
+.ui2-icon-flag-mu.ui2-icon-flag-m {
+	background-position:-512px -96px;
+}
+.ui2-icon-flag-mv.ui2-icon-flag-m {
+	background-position:-512px -120px;
+}
+.ui2-icon-flag-mw.ui2-icon-flag-m {
+	background-position:-512px -144px;
+}
+.ui2-icon-flag-mx.ui2-icon-flag-m {
+	background-position:-512px -168px;
+}
+.ui2-icon-flag-my.ui2-icon-flag-m {
+	background-position:-512px -192px;
+}
+.ui2-icon-flag-mz.ui2-icon-flag-m {
+	background-position:-512px -216px;
+}
+.ui2-icon-flag-na.ui2-icon-flag-m {
+	background-position:-512px -240px;
+}
+.ui2-icon-flag-nc.ui2-icon-flag-m {
+	background-position:-512px -264px;
+}
+.ui2-icon-flag-ne.ui2-icon-flag-m {
+	background-position:-512px -288px;
+}
+.ui2-icon-flag-nf.ui2-icon-flag-m {
+	background-position:-512px -312px;
+}
+.ui2-icon-flag-ng.ui2-icon-flag-m {
+	background-position:-512px -336px;
+}
+.ui2-icon-flag-ni.ui2-icon-flag-m {
+	background-position:-512px -360px;
+}
+.ui2-icon-flag-nl.ui2-icon-flag-m {
+	background-position:-512px -384px;
+}
+.ui2-icon-flag-no.ui2-icon-flag-m {
+	background-position:-512px -408px;
+}
+.ui2-icon-flag-np.ui2-icon-flag-m {
+	background-position:-512px -432px;
+}
+.ui2-icon-flag-nr.ui2-icon-flag-m {
+	background-position:-512px -456px;
+}
+.ui2-icon-flag-nu.ui2-icon-flag-m {
+	background-position:-512px -480px;
+}
+.ui2-icon-flag-nz.ui2-icon-flag-m {
+	background-position:0 -512px;
+}
+.ui2-icon-flag-om.ui2-icon-flag-m {
+	background-position:-24px -512px;
+}
+.ui2-icon-flag-pa.ui2-icon-flag-m {
+	background-position:-48px -512px;
+}
+.ui2-icon-flag-pe.ui2-icon-flag-m {
+	background-position:-72px -512px;
+}
+.ui2-icon-flag-pf.ui2-icon-flag-m {
+	background-position:-96px -512px;
+}
+.ui2-icon-flag-pg.ui2-icon-flag-m {
+	background-position:-120px -512px;
+}
+.ui2-icon-flag-ph.ui2-icon-flag-m {
+	background-position:-144px -512px;
+}
+.ui2-icon-flag-pk.ui2-icon-flag-m {
+	background-position:-168px -512px;
+}
+.ui2-icon-flag-pl.ui2-icon-flag-m {
+	background-position:-192px -512px;
+}
+.ui2-icon-flag-pm.ui2-icon-flag-m {
+	background-position:-216px -512px;
+}
+.ui2-icon-flag-pn.ui2-icon-flag-m {
+	background-position:-240px -512px;
+}
+.ui2-icon-flag-pr.ui2-icon-flag-m {
+	background-position:-264px -512px;
+}
+.ui2-icon-flag-ps.ui2-icon-flag-m {
+	background-position:-288px -512px;
+}
+.ui2-icon-flag-pt.ui2-icon-flag-m {
+	background-position:-312px -512px;
+}
+.ui2-icon-flag-pw.ui2-icon-flag-m {
+	background-position:-336px -512px;
+}
+.ui2-icon-flag-py.ui2-icon-flag-m {
+	background-position:-360px -512px;
+}
+.ui2-icon-flag-qa.ui2-icon-flag-m {
+	background-position:-384px -512px;
+}
+.ui2-icon-flag-re.ui2-icon-flag-m {
+	background-position:-408px -512px;
+}
+.ui2-icon-flag-ro.ui2-icon-flag-m {
+	background-position:-432px -512px;
+}
+.ui2-icon-flag-rs.ui2-icon-flag-m {
+	background-position:-456px -512px;
+}
+.ui2-icon-flag-ru.ui2-icon-flag-m {
+	background-position:-480px -512px;
+}
+.ui2-icon-flag-rw.ui2-icon-flag-m {
+	background-position:-504px -512px;
+}
+.ui2-icon-flag-sa.ui2-icon-flag-m {
+	background-position:-536px 0;
+}
+.ui2-icon-flag-sb.ui2-icon-flag-m {
+	background-position:-536px -24px;
+}
+.ui2-icon-flag-sc.ui2-icon-flag-m {
+	background-position:-536px -48px;
+}
+.ui2-icon-flag-sct.ui2-icon-flag-m {
+	background-position:-536px -72px;
+}
+.ui2-icon-flag-sd.ui2-icon-flag-m {
+	background-position:-536px -96px;
+}
+.ui2-icon-flag-se.ui2-icon-flag-m {
+	background-position:-536px -120px;
+}
+.ui2-icon-flag-sg.ui2-icon-flag-m {
+	background-position:-536px -144px;
+}
+.ui2-icon-flag-sgs.ui2-icon-flag-m {
+	background-position:-536px -168px;
+}
+.ui2-icon-flag-sh.ui2-icon-flag-m {
+	background-position:-536px -192px;
+}
+.ui2-icon-flag-si.ui2-icon-flag-m {
+	background-position:-536px -216px;
+}
+.ui2-icon-flag-sj.ui2-icon-flag-m {
+	background-position:-536px -240px;
+}
+.ui2-icon-flag-sk.ui2-icon-flag-m {
+	background-position:-536px -264px;
+}
+.ui2-icon-flag-sl.ui2-icon-flag-m {
+	background-position:-536px -288px;
+}
+.ui2-icon-flag-sm.ui2-icon-flag-m {
+	background-position:-536px -312px;
+}
+.ui2-icon-flag-sn.ui2-icon-flag-m {
+	background-position:-536px -336px;
+}
+.ui2-icon-flag-so.ui2-icon-flag-m {
+	background-position:-536px -360px;
+}
+.ui2-icon-flag-sr.ui2-icon-flag-m {
+	background-position:-536px -384px;
+}
+.ui2-icon-flag-srb.ui2-icon-flag-m {
+	background-position:-536px -408px;
+}
+.ui2-icon-flag-ss.ui2-icon-flag-m {
+	background-position:-536px -432px;
+}
+.ui2-icon-flag-st.ui2-icon-flag-m {
+	background-position:-536px -456px;
+}
+.ui2-icon-flag-sv.ui2-icon-flag-m {
+	background-position:-536px -480px;
+}
+.ui2-icon-flag-sy.ui2-icon-flag-m {
+	background-position:-536px -504px;
+}
+.ui2-icon-flag-sz.ui2-icon-flag-m {
+	background-position:0 -536px;
+}
+.ui2-icon-flag-tc.ui2-icon-flag-m {
+	background-position:-24px -536px;
+}
+.ui2-icon-flag-td.ui2-icon-flag-m {
+	background-position:-48px -536px;
+}
+.ui2-icon-flag-tf.ui2-icon-flag-m {
+	background-position:-72px -536px;
+}
+.ui2-icon-flag-tg.ui2-icon-flag-m {
+	background-position:-96px -536px;
+}
+.ui2-icon-flag-th.ui2-icon-flag-m {
+	background-position:-120px -536px;
+}
+.ui2-icon-flag-tj.ui2-icon-flag-m {
+	background-position:-144px -536px;
+}
+.ui2-icon-flag-tk.ui2-icon-flag-m {
+	background-position:-168px -536px;
+}
+.ui2-icon-flag-tls.ui2-icon-flag-m {
+	background-position:-192px -536px;
+}
+.ui2-icon-flag-tm.ui2-icon-flag-m {
+	background-position:-216px -536px;
+}
+.ui2-icon-flag-tn.ui2-icon-flag-m {
+	background-position:-240px -536px;
+}
+.ui2-icon-flag-to.ui2-icon-flag-m {
+	background-position:-264px -536px;
+}
+.ui2-icon-flag-tp.ui2-icon-flag-m {
+	background-position:-288px -536px;
+}
+.ui2-icon-flag-tl.ui2-icon-flag-m {
+	background-position:-288px -536px;
+}
+.ui2-icon-flag-tr.ui2-icon-flag-m {
+	background-position:-312px -536px;
+}
+.ui2-icon-flag-tt.ui2-icon-flag-m {
+	background-position:-336px -536px;
+}
+.ui2-icon-flag-tv.ui2-icon-flag-m {
+	background-position:-360px -536px;
+}
+.ui2-icon-flag-tw.ui2-icon-flag-m {
+	background-position:-384px -536px;
+}
+.ui2-icon-flag-tz.ui2-icon-flag-m {
+	background-position:-408px -536px;
+}
+.ui2-icon-flag-ua.ui2-icon-flag-m {
+	background-position:-432px -536px;
+}
+.ui2-icon-flag-ug.ui2-icon-flag-m {
+	background-position:-456px -536px;
+}
+.ui2-icon-flag-uk.ui2-icon-flag-m {
+	background-position:-480px -536px;
+}
+.ui2-icon-flag-um.ui2-icon-flag-m {
+	background-position:-504px -536px;
+}
+.ui2-icon-flag-us.ui2-icon-flag-m {
+	background-position:-528px -536px;
+}
+.ui2-icon-flag-uy.ui2-icon-flag-m {
+	background-position:-560px 0;
+}
+.ui2-icon-flag-uz.ui2-icon-flag-m {
+	background-position:-560px -24px;
+}
+.ui2-icon-flag-va.ui2-icon-flag-m {
+	background-position:-560px -48px;
+}
+.ui2-icon-flag-vc.ui2-icon-flag-m {
+	background-position:-560px -72px;
+}
+.ui2-icon-flag-ve.ui2-icon-flag-m {
+	background-position:-560px -96px;
+}
+.ui2-icon-flag-vg.ui2-icon-flag-m {
+	background-position:-560px -120px;
+}
+.ui2-icon-flag-vi.ui2-icon-flag-m {
+	background-position:-560px -144px;
+}
+.ui2-icon-flag-vn.ui2-icon-flag-m {
+	background-position:-560px -168px;
+}
+.ui2-icon-flag-vu.ui2-icon-flag-m {
+	background-position:-560px -192px;
+}
+.ui2-icon-flag-wf.ui2-icon-flag-m {
+	background-position:-560px -216px;
+}
+.ui2-icon-flag-ws.ui2-icon-flag-m {
+	background-position:-560px -240px;
+}
+.ui2-icon-flag-ye.ui2-icon-flag-m {
+	background-position:-560px -264px;
+}
+.ui2-icon-flag-yt.ui2-icon-flag-m {
+	background-position:-560px -288px;
+}
+.ui2-icon-flag-yu.ui2-icon-flag-m {
+	background-position:-560px -312px;
+}
+.ui2-icon-flag-cs.ui2-icon-flag-m {
+	background-position:-560px -312px;
+}
+.ui2-icon-flag-za.ui2-icon-flag-m {
+	background-position:-560px -336px;
+}
+.ui2-icon-flag-zm.ui2-icon-flag-m {
+	background-position:-560px -360px;
+}
+.ui2-icon-flag-zr.ui2-icon-flag-m {
+	background-position:-560px -384px;
+}
+.ui2-icon-flag-cd.ui2-icon-flag-m {
+	background-position:-560px -384px;
+}
+.ui2-icon-flag-zw.ui2-icon-flag-m {
+	background-position:-560px -408px;
+}

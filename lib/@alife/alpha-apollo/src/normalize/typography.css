@@ -1,0 +1,77 @@
+/*
+ *@name : typography
+ *@description : 浏览器对HTML的字体样式定义的重置
+ *@require : 无
+ *@author : zhenyu.zhaozy@alibaba-inc.com
+ *@version : 1.0
+ *@modifyTime : 2012-07-27
+ *@structure : 无
+ */
+
+/* 
+ * 默认字体大小设置, 对字体大小使用百分比, 其基础字体大小为 16px (0.75 * 16px = 12px)
+ */
+html {
+	font-size : 100%;
+}
+
+body {
+	font-size : 75%;
+	color : #000;
+	font-family : Arial, Helvetica, sans-senif, "Microsoft YaHei";
+	line-height :  1.2857142; /* http://dpl.aliui.com/?p=948  & http://dpl.aliui.com/?p=2133 */
+}
+
+p{
+	margin-bottom: 1.2857142em;
+}
+
+hr {
+	border : 0 #ccc solid;
+	border-top-width : 1px;
+}
+ul, ol{
+	list-style: none;
+}
+li{
+	margin-left: 0;
+}
+
+/* 
+ * 标题(headings)
+ */
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight : normal;
+	margin:0;
+}
+
+h1 {
+	font-size : 3em;
+	line-height : 1;
+}
+
+h2 {
+	font-size : 2em;
+	line-height : 1;
+}
+
+h3 {
+	font-size : 1.5em;
+	line-height : 1;
+}
+
+h4 {
+	font-size : 1.2em;
+	line-height : 1.25;
+}
+
+h5 {
+	font-size : 1em;
+	font-weight : bold;
+}
+
+h6 {
+	font-size : 1em;
+	font-weight : bold;
+}

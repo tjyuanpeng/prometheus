@@ -1,0 +1,14 @@
+@import "mixin.scss";
+
+#{$prefix} {
+  .col-sub, 
+  .col-extra {
+    float : left;
+    display : inline;
+  }
+  .col-main {
+    float : left;
+    display : inline;
+    width : 100%;
+  }
+}

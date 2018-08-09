@@ -1,0 +1,18 @@
+@import "mixin.scss";
+
+#{$prefix} {
+  .grid:before, 
+  .grid:after {
+    display : table;
+    content : '';
+    line-height : 0;
+  }
+  .grid:after {
+    clear : both;
+  }
+  @include page-width();
+
+  @include grid-c2-sub();
+
+  @include grid-c2-extra();
+}

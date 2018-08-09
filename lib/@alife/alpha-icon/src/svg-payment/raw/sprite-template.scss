@@ -1,0 +1,38 @@
+// define variables
+$svgImgBaseHeightConfig: 16;
+$spriteWidth: {{spriteWidth}}px;
+$spriteHeight: {{spriteHeight}}px;
+$size-type-list: (xs:16, s:24, m:32, l:48, xl:64);
+
+/* common */
+{{^hasMixin}}{{#hasCommon}}.{{/hasCommon}}{{^hasCommon}}%{{/hasCommon}}{{commonName}} {
+    display: inline-block;
+    font-size: 0;
+    background: url("./{{{sprite}}}") no-repeat;
+}
+{{/hasMixin}}
+
+// 生成不同尺寸
+@each $size-type,$size in $size-type-list {
+  .ui2-icon-svg-payment-#{$size-type} {
+        height: #{$size}px;
+        background-size: ($spriteWidth * $size / $svgImgBaseHeightConfig) ($spriteHeight * $size / $svgImgBaseHeightConfig);
+    }
+}
+
+/* position */
+{{#shapes}}
+    {{#selector.shape}}{{expression}}{{^last}},{{/last}}{{/selector.shape}} {
+        background-position: {{position.relative.xy}};
+    }
+
+    @each $size-type,$size in $size-type-list {
+        .ui2-icon-svg-payment-#{$size-type}{{#selector.shape}}{{expression}}{{^last}},{{/last}}{{/selector.shape}} {
+            {{#dimensions.inline}}
+            width: ({{width.outer}}px * $size / $svgImgBaseHeightConfig);
+            {{/dimensions.inline}}
+        }
+    }
+{{/shapes}}
+
+

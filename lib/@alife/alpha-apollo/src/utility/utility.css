@@ -1,0 +1,124 @@
+/*
+ *@name : utility
+ *@description : CSS布局时常用的工具类.
+ *@require : 无
+ *@author : zhenyu.zhaozy@alibaba-inc.com
+ *@version : 1.0
+ *@modifyTime : 2012-07-27
+ *@structure : 无
+ */
+
+.util-left, 
+.util-right {
+	display : inline;
+}
+
+.util-left {
+	float : left;	
+}
+.util-center{
+	text-align: center;
+}
+.util-right {
+	float : right;
+}
+
+
+.util-align-left{
+	text-align: left;
+}
+.util-align-right{
+	text-align: right;
+}
+.util-align-center{
+	text-align: center;
+}
+
+/*
+ * 无额外标签的清楚浮动
+ */
+.util-clearfix:after {
+	visibility : hidden;
+	display : block;
+	height : 0;
+	font-size : 0;
+	content : '\0020';
+	clear : both;
+}
+
+.util-clearfix {
+	zoom : 1; /* for IE6 IE7 */
+}
+
+/*
+ * 容器内水平垂直居中
+ */
+.util-valign {
+	display : table;
+	overflow : hidden;
+	height : 100%;
+	*position : relative;
+}
+
+.util-valign .util-valign-ctn {
+	display : table-cell;
+	vertical-align : middle;
+	text-align : center;
+	*position : absolute;
+	*top : 50%;
+	*left : 50%;
+}
+
+.util-valign .util-valign-inner{
+	*position : relative;
+	*top : -50%;
+	*left : -50%;
+}
+
+/*
+ * 文本溢出. 在可指定宽度的模型上, 通知手动指定宽度生效
+ */
+.util-ellipsis{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.util-select{
+	-webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+/*
+ * 可访问性：跳过其他区域，直接访问主要内容
+ */
+.util-skip-to-content {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 1px;
+	height: 1px;
+	background: rgba(0, 0, 0, 0);
+	text-align: center;
+	overflow: hidden;
+}
+.util-skip-to-content:after{
+	padding: .3em;
+	outline: 1px dotted;
+	font-size: 16px;
+	line-height: 36px;
+	content:"skip to content";
+}
+.util-skip-to-content:active, .util-skip-to-content:focus {
+	width: 100%;
+	height: 36px;
+	margin: 0;
+	overflow: visible;
+	background-color: #1686CC;
+	color: #FFF;
+	text-decoration: underline;
+}

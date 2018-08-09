@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta charset="utf-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+		<title>SVG CSS sprite preview | svg-sprite</title>
+		<style>@charset "UTF-8";body{padding:0;margin:0;color:#666;background:#fafafa;font-family:Arial,Helvetica,sans-serif;font-size:1em;line-height:1.4}header{display:block;padding:3em 3em 2em 3em;background-color:#fff}header p{margin:2em 0 0 0}section{border-top:1px solid #eee;padding:2em 3em 0 3em}section ul{margin:0;padding:0}section li{display:inline;display:inline-block;background-color:#fff;position:relative;margin:0 2em 2em 0;vertical-align:top;border:1px solid #ccc;padding:1em 1em 3em 1em;cursor:default}.icon-box{margin:0;width:144px;height:144px;position:relative;background:#ccc url("data:image/gif;base64,R0lGODlhDAAMAIAAAMzMzP///yH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4wLWMwNjEgNjQuMTQwOTQ5LCAyMDEwLzEyLzA3LTEwOjU3OjAxICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1LjEgV2luZG93cyIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozQjk4OTI0MUY5NTIxMUUyQkJDMEI5NEFEM0Y1QTYwQyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozQjk4OTI0MkY5NTIxMUUyQkJDMEI5NEFEM0Y1QTYwQyI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjNCOTg5MjNGRjk1MjExRTJCQkMwQjk0QUQzRjVBNjBDIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjNCOTg5MjQwRjk1MjExRTJCQkMwQjk0QUQzRjVBNjBDIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+Af/+/fz7+vn49/b19PPy8fDv7u3s6+rp6Ofm5eTj4uHg397d3Nva2djX1tXU09LR0M/OzczLysnIx8bFxMPCwcC/vr28u7q5uLe2tbSzsrGwr66trKuqqainpqWko6KhoJ+enZybmpmYl5aVlJOSkZCPjo2Mi4qJiIeGhYSDgoGAf359fHt6eXh3dnV0c3JxcG9ubWxramloZ2ZlZGNiYWBfXl1cW1pZWFdWVVRTUlFQT05NTEtKSUhHRkVEQ0JBQD8+PTw7Ojk4NzY1NDMyMTAvLi0sKyopKCcmJSQjIiEgHx4dHBsaGRgXFhUUExIREA8ODQwLCgkIBwYFBAMCAQAAIfkEAAAAAAAsAAAAAAwADAAAAhaEH6mHmmzcgzJAUG/NVGrfOZ8YLlABADs=") top left repeat;border:1px solid #ccc;display:table-cell;vertical-align:middle;text-align:center}.icon{display:inline;display:inline-block}h1{margin-top:0}h2{margin:0;padding:0;font-size:1em;font-weight:normal;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;position:absolute;left:1em;right:1em;bottom:1em}footer{display:block;margin:0;padding:0 3em 3em 3em}footer p{margin:0;font-size:.7em}footer a{color:#0f7595;margin-left:0}</style>
+		<style>i{text-indent:200%;white-space:nowrap;overflow:hidden;display:inline-block;background-size:480px 384px!important}</style>
+
+<!--
+
+Sprite CSS
+====================================================================================================
+This is an all-in-one inline version of the CSS necessary to use the SVG sprite.
+
+-->
+
+<style type="text/css">
+.svg-a-and-v-checked {
+	background: url("svg/sprite.css-9722370a.svg") 25% 0 no-repeat;
+	width: 96px;
+	height: 96px;
+}
+.svg-assessed-supplier {
+	background: url("svg/sprite.css-9722370a.svg") 75% 33.333333333333336% no-repeat;
+	width: 96px;
+	height: 96px;
+}
+.svg-business-identity {
+	background: url("svg/sprite.css-9722370a.svg") 0 33.333333333333336% no-repeat;
+	width: 96px;
+	height: 96px;
+}
+.svg-company-video {
+	background: url("svg/sprite.css-9722370a.svg") 25% 33.333333333333336% no-repeat;
+	width: 96px;
+	height: 96px;
+}
+.svg-diamond {
+	background: url("svg/sprite.css-9722370a.svg") 50% 0 no-repeat;
+	width: 96px;
+	height: 96px;
+}
+.svg-diamond-level-half {
+	background: url("svg/sprite.css-9722370a.svg") 50% 33.333333333333336% no-repeat;
+	width: 96px;
+	height: 96px;
+}
+.svg-diamond-level-half-filled {
+	background: url("svg/sprite.css-9722370a.svg") 0 66.66666666666667% no-repeat;
+	width: 96px;
+	height: 96px;
+}
+.svg-diamond-level-one {
+	background: url("svg/sprite.css-9722370a.svg") 25% 66.66666666666667% no-repeat;
+	width: 96px;
+	height: 96px;
+}
+.svg-e-credit-line {
+	background: url("svg/sprite.css-9722370a.svg") 50% 66.66666666666667% no-repeat;
+	width: 96px;
+	height: 96px;
+}
+.svg-gold-plus-supplier {
+	background: url("svg/sprite.css-9722370a.svg") 75% 0 no-repeat;
+	width: 96px;
+	height: 96px;
+}
+.svg-gold-supplier {
+	background: url("svg/sprite.css-9722370a.svg") 0 0 no-repeat;
+	width: 96px;
+	height: 96px;
+}
+.svg-inspection-service {
+	background: url("svg/sprite.css-9722370a.svg") 75% 66.66666666666667% no-repeat;
+	width: 96px;
+	height: 96px;
+}
+.svg-logistic-service {
+	background: url("svg/sprite.css-9722370a.svg") 0 100% no-repeat;
+	width: 96px;
+	height: 96px;
+}
+.svg-new {
+	background: url("svg/sprite.css-9722370a.svg") 25% 100% no-repeat;
+	width: 96px;
+	height: 96px;
+}
+.svg-onsite-check {
+	background: url("svg/sprite.css-9722370a.svg") 50% 100% no-repeat;
+	width: 96px;
+	height: 96px;
+}
+.svg-secure-payment {
+	background: url("svg/sprite.css-9722370a.svg") 75% 100% no-repeat;
+	width: 96px;
+	height: 96px;
+}
+.svg-ta-selected {
+	background: url("svg/sprite.css-9722370a.svg") 100% 0 no-repeat;
+	width: 96px;
+	height: 96px;
+}
+.svg-trade-assurance {
+	background: url("svg/sprite.css-9722370a.svg") 100% 33.333333333333336% no-repeat;
+	width: 96px;
+	height: 96px;
+}
+.svg-trade-assurance_100percent {
+	background: url("svg/sprite.css-9722370a.svg") 100% 66.66666666666667% no-repeat;
+	width: 96px;
+	height: 96px;
+}
+.svg-trade-assurance_new {
+	background: url("svg/sprite.css-9722370a.svg") 100% 100% no-repeat;
+	width: 96px;
+	height: 96px;
+}
+</style>
+
+<!--
+====================================================================================================
+-->
+
+	</head>
+	<body>
+		<header>
+			<h1>SVG CSS sprite preview</h1>
+			<p>This preview features the generated SVG file as a conventional CSS sprite. The shapes are displayed as background images of several <code>&lt;i&gt;</code> elements.</p>
+		</header>
+		<section>
+
+<!--
+
+Conventional CSS sprite
+====================================================================================================
+This technique uses CSS classes to display portions of the sprite as background image of
+appropriately sized elements.
+
+-->
+
+			<ul>
+				<li title="a-and-v-checked">
+					<div class="icon-box">
+
+						<!-- a-and-v-checked -->
+						<i class="svg-a-and-v-checked">a-and-v-checked</i>
+
+					</div>
+					<h2>a-and-v-checked</h2>
+				</li>
+				<li title="assessed-supplier">
+					<div class="icon-box">
+
+						<!-- assessed-supplier -->
+						<i class="svg-assessed-supplier">assessed-supplier</i>
+
+					</div>
+					<h2>assessed-supplier</h2>
+				</li>
+				<li title="business-identity">
+					<div class="icon-box">
+
+						<!-- business-identity -->
+						<i class="svg-business-identity">business-identity</i>
+
+					</div>
+					<h2>business-identity</h2>
+				</li>
+				<li title="company-video">
+					<div class="icon-box">
+
+						<!-- company-video -->
+						<i class="svg-company-video">company-video</i>
+
+					</div>
+					<h2>company-video</h2>
+				</li>
+				<li title="diamond">
+					<div class="icon-box">
+
+						<!-- diamond -->
+						<i class="svg-diamond">diamond</i>
+
+					</div>
+					<h2>diamond</h2>
+				</li>
+				<li title="diamond-level-half">
+					<div class="icon-box">
+
+						<!-- diamond-level-half -->
+						<i class="svg-diamond-level-half">diamond-level-half</i>
+
+					</div>
+					<h2>diamond-level-half</h2>
+				</li>
+				<li title="diamond-level-half-filled">
+					<div class="icon-box">
+
+						<!-- diamond-level-half-filled -->
+						<i class="svg-diamond-level-half-filled">diamond-level-half-filled</i>
+
+					</div>
+					<h2>diamond-level-half-filled</h2>
+				</li>
+				<li title="diamond-level-one">
+					<div class="icon-box">
+
+						<!-- diamond-level-one -->
+						<i class="svg-diamond-level-one">diamond-level-one</i>
+
+					</div>
+					<h2>diamond-level-one</h2>
+				</li>
+				<li title="e-credit-line">
+					<div class="icon-box">
+
+						<!-- e-credit-line -->
+						<i class="svg-e-credit-line">e-credit-line</i>
+
+					</div>
+					<h2>e-credit-line</h2>
+				</li>
+				<li title="gold-plus-supplier">
+					<div class="icon-box">
+
+						<!-- gold-plus-supplier -->
+						<i class="svg-gold-plus-supplier">gold-plus-supplier</i>
+
+					</div>
+					<h2>gold-plus-supplier</h2>
+				</li>
+				<li title="gold-supplier">
+					<div class="icon-box">
+
+						<!-- gold-supplier -->
+						<i class="svg-gold-supplier">gold-supplier</i>
+
+					</div>
+					<h2>gold-supplier</h2>
+				</li>
+				<li title="inspection-service">
+					<div class="icon-box">
+
+						<!-- inspection-service -->
+						<i class="svg-inspection-service">inspection-service</i>
+
+					</div>
+					<h2>inspection-service</h2>
+				</li>
+				<li title="logistic-service">
+					<div class="icon-box">
+
+						<!-- logistic-service -->
+						<i class="svg-logistic-service">logistic-service</i>
+
+					</div>
+					<h2>logistic-service</h2>
+				</li>
+				<li title="new">
+					<div class="icon-box">
+
+						<!-- new -->
+						<i class="svg-new">new</i>
+
+					</div>
+					<h2>new</h2>
+				</li>
+				<li title="onsite-check">
+					<div class="icon-box">
+
+						<!-- onsite-check -->
+						<i class="svg-onsite-check">onsite-check</i>
+
+					</div>
+					<h2>onsite-check</h2>
+				</li>
+				<li title="secure-payment">
+					<div class="icon-box">
+
+						<!-- secure-payment -->
+						<i class="svg-secure-payment">secure-payment</i>
+
+					</div>
+					<h2>secure-payment</h2>
+				</li>
+				<li title="ta-selected">
+					<div class="icon-box">
+
+						<!-- ta-selected -->
+						<i class="svg-ta-selected">ta-selected</i>
+
+					</div>
+					<h2>ta-selected</h2>
+				</li>
+				<li title="trade-assurance">
+					<div class="icon-box">
+
+						<!-- trade-assurance -->
+						<i class="svg-trade-assurance">trade-assurance</i>
+
+					</div>
+					<h2>trade-assurance</h2>
+				</li>
+				<li title="trade-assurance_100percent">
+					<div class="icon-box">
+
+						<!-- trade-assurance_100percent -->
+						<i class="svg-trade-assurance_100percent">trade-assurance_100percent</i>
+
+					</div>
+					<h2>trade-assurance_100percent</h2>
+				</li>
+				<li title="trade-assurance_new">
+					<div class="icon-box">
+
+						<!-- trade-assurance_new -->
+						<i class="svg-trade-assurance_new">trade-assurance_new</i>
+
+					</div>
+					<h2>trade-assurance_new</h2>
+				</li>
+			</ul>
+
+<!--
+====================================================================================================
+-->
+
+		</section>
+		<footer>
+			<p>Generated at Wed, 27 Jun 2018 04:13:22 GMT by <a href="https://github.com/jkphl/svg-sprite" target="_blank">svg-sprite</a>.</p>
+		</footer>
+	</body>
+</html>

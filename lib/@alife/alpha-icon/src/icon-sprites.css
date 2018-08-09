@@ -1,0 +1,342 @@
+/*
+ * @name : Icon
+ * @description : {description}
+ * @require : core
+ * @author : bright.wangl
+ * @structure :
+ *  structure example:
+ *           <BLOCK class="ui2-icon ui2-icon-{status}"> Bounding Box;
+ *           </BLOCK>
+ */
+
+.ui2-icon-sprite-xs {
+    width: 16px;
+    height: 16px;
+}
+.ui2-icon-sprite-s {
+    width: 24px;
+    height: 24px;
+}
+.ui2-icon-sprite-m {
+    width: 32px;
+    height: 32px;
+}
+.ui2-icon-sprite-l {
+    width: 48px;
+    height: 48px;
+}
+.ui2-icon-sprite-xl {
+    width: 64px;
+    height: 64px;
+}
+
+.ui2-icon-gs-year1,
+.ui2-icon-gs-year2,
+.ui2-icon-gs-year3,
+.ui2-icon-gs-year4,
+.ui2-icon-gs-year5,
+.ui2-icon-gs-year6,
+.ui2-icon-gs-year7,
+.ui2-icon-gs-year8,
+.ui2-icon-gs-year9,
+.ui2-icon-gs-year10,
+.ui2-icon-gs-year11,
+.ui2-icon-gs-year12,
+.ui2-icon-gs-year13,
+.ui2-icon-gs-year14,
+.ui2-icon-gs-year15,
+.ui2-icon-gs-year16,
+.ui2-icon-gs-year17,
+.ui2-icon-gs-year18,
+.ui2-icon-gs-year19,
+.ui2-icon-gs-year20,
+.ui2-icon-gs-year-num1,
+.ui2-icon-gs-year-num2,
+.ui2-icon-gs-year-num3,
+.ui2-icon-gs-year-num4,
+.ui2-icon-gs-year-num5,
+.ui2-icon-gs-year-num6,
+.ui2-icon-gs-year-num7,
+.ui2-icon-gs-year-num8,
+.ui2-icon-gs-year-num9,
+.ui2-icon-gs-year-num10,
+.ui2-icon-gs-year-num11,
+.ui2-icon-gs-year-num12,
+.ui2-icon-gs-year-num13,
+.ui2-icon-gs-year-num14,
+.ui2-icon-gs-year-num15,
+.ui2-icon-gs-year-num16,
+.ui2-icon-gs-year-num17,
+.ui2-icon-gs-year-num18,
+.ui2-icon-gs-year-num19,
+.ui2-icon-gs-year-num20,
+.ui2-icon-gs-year,
+.ui2-icon-gs,
+.ui2-icon-vm,
+.ui2-icon-os,
+.ui2-icon-video,
+.ui2-icon-ta,
+.ui2-icon-as,
+.ui2-icon-wholesale,
+.ui2-icon-alisourcepro,
+.ui2-icon-main-product,
+.ui2-icon-48h,
+.ui2-icon-selected-supplier,
+.ui2-icon-facebook,
+.ui2-icon-twitter,
+.ui2-icon-pinterest,
+.ui2-icon-instagram,
+.ui2-icon-youtube,
+.ui2-icon-checkmark {
+    background-repeat: no-repeat;
+    background-image: url(./img/sprites/sprites.png);
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.ui2-icon-gs-year1,
+.ui2-icon-gs-year2,
+.ui2-icon-gs-year3,
+.ui2-icon-gs-year4,
+.ui2-icon-gs-year5,
+.ui2-icon-gs-year6,
+.ui2-icon-gs-year7,
+.ui2-icon-gs-year8,
+.ui2-icon-gs-year9,
+.ui2-icon-gs-year10,
+.ui2-icon-gs-year11,
+.ui2-icon-gs-year12,
+.ui2-icon-gs-year13,
+.ui2-icon-gs-year14,
+.ui2-icon-gs-year15,
+.ui2-icon-gs-year16,
+.ui2-icon-gs-year17,
+.ui2-icon-gs-year18,
+.ui2-icon-gs-year19,
+.ui2-icon-gs-year20{
+    height: 36px;
+    width: 36px;
+}
+.ui2-icon-gs-year1{ background-position:-1px -3px; }
+.ui2-icon-gs-year2{ background-position:-41px -3px; }
+.ui2-icon-gs-year3{ background-position:-81px -3px; }
+.ui2-icon-gs-year4{ background-position:-121px -3px; }
+.ui2-icon-gs-year5{ background-position:-161px -3px; }
+.ui2-icon-gs-year6{ background-position:-201px -3px; }
+.ui2-icon-gs-year7{ background-position:-241px -3px; }
+.ui2-icon-gs-year8{ background-position:-281px -3px; }
+.ui2-icon-gs-year9{ background-position:-321px -3px; }
+.ui2-icon-gs-year10{ background-position:-361px -3px; }
+.ui2-icon-gs-year11{ background-position:-1px -52px; }
+.ui2-icon-gs-year12{ background-position:-41px -52px; }
+.ui2-icon-gs-year13{ background-position:-81px -52px; }
+.ui2-icon-gs-year14{ background-position:-121px -52px; }
+.ui2-icon-gs-year15{ background-position:-161px -52px; }
+.ui2-icon-gs-year16{ background-position:-201px -52px; }
+.ui2-icon-gs-year17{ background-position:-241px -52px; }
+.ui2-icon-gs-year18{ background-position:-281px -52px; }
+.ui2-icon-gs-year19{ background-position:-321px -52px; }
+.ui2-icon-gs-year20{ background-position:-361px -52px; }
+
+.ui2-icon-gs-year-num1,
+.ui2-icon-gs-year-num2,
+.ui2-icon-gs-year-num3,
+.ui2-icon-gs-year-num4,
+.ui2-icon-gs-year-num5,
+.ui2-icon-gs-year-num6,
+.ui2-icon-gs-year-num7,
+.ui2-icon-gs-year-num8,
+.ui2-icon-gs-year-num9{
+    height: 12px;
+    width: 25px;
+}
+.ui2-icon-gs-year-num10,
+.ui2-icon-gs-year-num11,
+.ui2-icon-gs-year-num12,
+.ui2-icon-gs-year-num13,
+.ui2-icon-gs-year-num14,
+.ui2-icon-gs-year-num15,
+.ui2-icon-gs-year-num16,
+.ui2-icon-gs-year-num17,
+.ui2-icon-gs-year-num18,
+.ui2-icon-gs-year-num19,
+.ui2-icon-gs-year-num20{
+    height: 12px;
+    width: 30px;
+}
+.ui2-icon-gs-year-num1{ background-position:-462px -249px }
+.ui2-icon-gs-year-num2{ background-position:-462px -236px; }
+.ui2-icon-gs-year-num3{ background-position:-462px -223px; }
+.ui2-icon-gs-year-num4{ background-position:-462px -210px; }
+.ui2-icon-gs-year-num5{ background-position:-462px -197px; }
+.ui2-icon-gs-year-num6{ background-position:-462px -184px; }
+.ui2-icon-gs-year-num7{ background-position:-462px -171px; }
+.ui2-icon-gs-year-num8{ background-position:-462px -159px; }
+.ui2-icon-gs-year-num9{ background-position:-462px -146px; }
+.ui2-icon-gs-year-num10{ background-position:-458px -132px; }
+.ui2-icon-gs-year-num11{ background-position:-459px -119px; }
+.ui2-icon-gs-year-num12{ background-position:-458px -106px; }
+.ui2-icon-gs-year-num13{ background-position:-458px -93px; }
+.ui2-icon-gs-year-num14{ background-position:-458px -80px; }
+.ui2-icon-gs-year-num15{ background-position:-458px -67px; }
+.ui2-icon-gs-year-num16{ background-position:-458px -54px; }
+.ui2-icon-gs-year-num17{ background-position:-458px -41px; }
+.ui2-icon-gs-year-num18{ background-position:-458px -28px; }
+.ui2-icon-gs-year-num19{ background-position:-458px -15px; }
+.ui2-icon-gs-year-num20{ background-position:-455px -2px; width: 32px }
+
+.ui2-icon-gs-year{
+    background-position: -3px -111px;
+    height: 16px;
+    position: relative;
+    width: 16px;
+}
+.ui2-icon-gs-year .ui2-icon-gs-year-num1,
+.ui2-icon-gs-year .ui2-icon-gs-year-num2,
+.ui2-icon-gs-year .ui2-icon-gs-year-num3,
+.ui2-icon-gs-year .ui2-icon-gs-year-num4,
+.ui2-icon-gs-year .ui2-icon-gs-year-num5,
+.ui2-icon-gs-year .ui2-icon-gs-year-num6,
+.ui2-icon-gs-year .ui2-icon-gs-year-num7,
+.ui2-icon-gs-year .ui2-icon-gs-year-num8,
+.ui2-icon-gs-year .ui2-icon-gs-year-num9,
+.ui2-icon-gs-year .ui2-icon-gs-year-num10,
+.ui2-icon-gs-year .ui2-icon-gs-year-num11,
+.ui2-icon-gs-year .ui2-icon-gs-year-num12,
+.ui2-icon-gs-year .ui2-icon-gs-year-num13,
+.ui2-icon-gs-year .ui2-icon-gs-year-num14,
+.ui2-icon-gs-year .ui2-icon-gs-year-num15,
+.ui2-icon-gs-year .ui2-icon-gs-year-num16,
+.ui2-icon-gs-year .ui2-icon-gs-year-num17,
+.ui2-icon-gs-year .ui2-icon-gs-year-num18,
+.ui2-icon-gs-year .ui2-icon-gs-year-num19,
+.ui2-icon-gs-year .ui2-icon-gs-year-num20{
+    position: absolute;
+    left: 12px;
+    top: -6px;
+}
+
+.ui2-icon-gs{
+    background-position: -3px -111px;
+    height: 16px;
+    width: 16px;
+}
+.ui2-icon-vm{
+    background-position: -30px -112px;
+    height: 16px;
+    width: 22px;
+}
+.ui2-icon-os{
+    background-position: -31px -150px;
+    height: 16px;
+    width: 16px;
+}
+.ui2-icon-video{
+    background-position: -63px -150px;
+    height: 16px;
+    width: 16px;
+}
+.ui2-icon-ta{
+    background-position: -62px -113px;
+    height: 16px;
+    width: 16px;
+}
+.ui2-icon-as{
+    background-position: -3px -150px;
+    height: 16px;
+    width: 16px;
+}
+.ui2-icon-wholesale{
+    background-position: -92px -148px;
+    height: 22px;
+    width: 22px;
+}
+.ui2-icon-alisourcepro{
+    background-position: -143px -146px;
+    height: 22px;
+    width: 22px;
+}
+.ui2-icon-main-product{
+    background-position: -90px -110px;
+    height: 16px;
+    width: 80px;
+}
+.ui2-icon-48h {
+    background-position: 0 -181px;
+    width: 19px;
+    height: 19px;
+}
+.ui2-icon-selected-supplier {
+    background-position: -28px -181px;
+    width: 19px;
+    height: 19px;
+}
+.ui2-icon-checkmark {
+    background-position: -181px -111px;
+    width: 12px;
+    height: 13px;
+}
+
+/*
+    social icons
+ */
+.ui2-icon-sprite-l.ui2-icon-facebook {
+    background-position: 0 -212px;
+}
+.ui2-icon-sprite-l.ui2-icon-twitter {
+    background-position: -55px -212px;
+}
+.ui2-icon-sprite-l.ui2-icon-pinterest {
+    background-position: -111px -212px;
+}
+.ui2-icon-sprite-l.ui2-icon-instagram {
+    background-position: -167px -212px;
+}
+.ui2-icon-sprite-l.ui2-icon-youtube {
+    background-position: -226px -212px;
+}
+.ui2-icon-sprite-m.ui2-icon-facebook {
+    background-position: 0 -266px;
+}
+.ui2-icon-sprite-m.ui2-icon-twitter {
+    background-position: -55px -266px;
+}
+.ui2-icon-sprite-m.ui2-icon-pinterest {
+    background-position: -111px -266px;
+}
+.ui2-icon-sprite-m.ui2-icon-instagram {
+    background-position: -167px -266px;
+}
+.ui2-icon-sprite-m.ui2-icon-youtube {
+    background-position: -226px -266px;
+}
+.ui2-icon-sprite-s.ui2-icon-facebook {
+    background-position: 0 -303px;
+}
+.ui2-icon-sprite-s.ui2-icon-twitter {
+    background-position: -55px -303px;
+}
+.ui2-icon-sprite-s.ui2-icon-pinterest {
+    background-position: -111px -303px;
+}
+.ui2-icon-sprite-s.ui2-icon-instagram {
+    background-position: -167px -303px;
+}
+.ui2-icon-sprite-s.ui2-icon-youtube {
+    background-position: -226px -303px;
+}
+.ui2-icon-sprite-xs.ui2-icon-facebook {
+    background-position: 0 -331px;
+}
+.ui2-icon-sprite-xs.ui2-icon-twitter {
+    background-position: -55px -331px;
+}
+.ui2-icon-sprite-xs.ui2-icon-pinterest {
+    background-position: -111px -331px;
+}
+.ui2-icon-sprite-xs.ui2-icon-instagram {
+    background-position: -167px -331px;
+}
+.ui2-icon-sprite-xs.ui2-icon-youtube {
+    background-position: -226px -331px;
+}

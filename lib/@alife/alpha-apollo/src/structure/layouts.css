@@ -1,0 +1,8 @@
+.ui2-grid .col-sub,
+.ui2-grid .col-extra {
+  float: left;
+  display: inline; }
+.ui2-grid .col-main {
+  float: left;
+  display: inline;
+  width: 100%; }

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.1 (28215) - http://www.bohemiancoding.com/sketch -->
+    <title>钻石等级64-1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="钻石等级64-1">
+            <g id="Group-9" transform="translate(1.000000, 6.000000)">
+                <polygon id="Shape" fill="#FF6A00" points="61.2284924 14.7622268 30.9432693 54.2732219 30.8727917 54.1742217 30.8727917 54.1742217 45.8945846 14.7622268"></polygon>
+                <polygon id="Shape" fill="#FF8A3D" points="61.5305392 14.3761259 61.2284924 14.7622268 45.8945846 14.7622268 39.0481911 0.18939176 48.6130055 0.18939176"></polygon>
+                <polygon id="Shape" fill="#FF8A3D" points="21.8717979 0.18939176 15.2569736 14.7622268 0.335863034 14.7622268 12.5385526 0.18939176"></polygon>
+                <polygon id="Shape" fill="#FF6A00" points="30.8727917 54.1742217 0.335863034 14.7622268 15.2569736 14.7622268"></polygon>
+                <polygon id="Shape" fill="#FF8A3D" points="45.8945846 14.7622268 30.8727917 54.1742217 15.2569736 14.7622268"></polygon>
+                <polygon id="Shape" fill="#FFAC74" points="45.8945846 14.7622268 15.2569736 14.7622268 21.8717979 0.18939176 39.0481911 0.18939176"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

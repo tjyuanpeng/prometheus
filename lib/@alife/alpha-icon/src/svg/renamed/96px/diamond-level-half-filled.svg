@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="96px" height="96px" viewBox="0 0 96 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.2 (29753) - http://www.bohemiancoding.com/sketch -->
+    <title>钻石面（96x96)</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="-2.20268248e-13" y="0" width="49.3083769" height="86.889172"></rect>
+        <rect id="path-3" x="0" y="0" width="49.3083769" height="86.889172"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="钻石面（96x96)">
+            <g id="Group-Copy" transform="translate(-1.000000, 8.000000)">
+                <g id="Group-Copy-21" transform="translate(73.000000, 43.500000) scale(-1, 1) translate(-73.000000, -43.500000) translate(48.000000, 0.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill-opacity="0" fill="#FFFFFF" xlink:href="#path-1"></use>
+                    <g id="Group-Copy-14" mask="url(#mask-2)">
+                        <g transform="translate(1.362996, 0.000000)">
+                            <polygon id="Shape" fill="#F7BC1A" points="93.7542988 22.5753867 47.3809562 82.9982485 47.2730396 82.8468507 47.2730396 82.8468507 70.2747108 22.5753867"></polygon>
+                            <polygon id="Shape" fill="#FACB25" points="94.2167989 21.9849353 93.7542988 22.5753867 70.2747108 22.5753867 59.7913754 0.289630573 74.4372116 0.289630573"></polygon>
+                            <path d="M33.4905368,0.289630573 L23.3617848,22.5753867 L0.514280231,22.5753867 L19.199284,0.289630573 L33.4905368,0.289630573 Z M47.2730396,82.8468507 L0.514280231,22.5753867 L23.3617848,22.5753867 L47.2730396,82.8468507 Z M70.2747108,22.5753867 L47.2730396,82.8468507 L23.3617848,22.5753867 L70.2747108,22.5753867 Z M70.2747108,22.5753867 L23.3617848,22.5753867 L33.4905368,0.289630573 L59.7913754,0.289630573 L70.2747108,22.5753867 Z" id="Combined-Shape" fill="#EBECF0"></path>
+                        </g>
+                    </g>
+                </g>
+                <g id="Group-Copy-22">
+                    <mask id="mask-4" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <use id="Mask" fill-opacity="0" fill="#FFFFFF" xlink:href="#path-3"></use>
+                    <g id="Group-Copy-14" mask="url(#mask-4)">
+                        <g transform="translate(1.362996, 0.000000)" id="Shape">
+                            <polygon fill="#F7BC1A" points="93.7542988 22.5753867 47.3809562 82.9982485 47.2730396 82.8468507 47.2730396 82.8468507 70.2747108 22.5753867"></polygon>
+                            <polygon fill="#FACB25" points="94.2167989 21.9849353 93.7542988 22.5753867 70.2747108 22.5753867 59.7913754 0.289630573 74.4372116 0.289630573"></polygon>
+                            <polygon fill="#FF8A3D" points="33.4905368 0.289630573 23.3617848 22.5753867 0.514280231 22.5753867 19.199284 0.289630573"></polygon>
+                            <polygon fill="#FF6A00" points="47.2730396 82.8468507 0.514280231 22.5753867 23.3617848 22.5753867"></polygon>
+                            <polygon fill="#FF8A3D" points="70.2747108 22.5753867 47.2730396 82.8468507 23.3617848 22.5753867"></polygon>
+                            <polygon fill="#FFAC74" points="70.2747108 22.5753867 23.3617848 22.5753867 33.4905368 0.289630573 59.7913754 0.289630573"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

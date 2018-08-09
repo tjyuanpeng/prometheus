@@ -1,0 +1,17 @@
+/*
+ *@name : common definition
+ *@description : 对于框架级别的基础元件而言, 功能职责明确独立具有其必要性, 而对于此, reset和common definition就有原则上的区别, reset仅作用于跨浏览器的差异抹平, 还原HTML的原始样式. 而对于一些习惯上的声明方式, 原则上不在reset定义范围内, 但是又需要全局定义某种特定样式, 在这样的情况下加入进common definition模块, 用以完成该类型需求.
+ *@require : 无
+ *@author : zhenyu.zhaozy@alibaba-inc.com
+ *@version : 1.0.0
+ *@modifyTime : 2013-06-27
+ *@structure : 无
+ */
+
+ul {
+	list-style : none;
+}
+
+ul li {
+	margin : 0;
+}

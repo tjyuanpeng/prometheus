@@ -70,6 +70,10 @@ var config = {
       path.resolve(__dirname, '../node_modules'),
     ],
     extensions: ['', '.js', '.jsx'],
+    alias: {
+      '@alife/alpha-apollo': path.resolve(__dirname, '../lib/@alife/alpha-apollo'),
+      '@alife/alpha-icon': path.resolve(__dirname, '../lib/@alife/alpha-icon'),
+    }
   },
   module: {
     loaders: [{
@@ -79,10 +83,10 @@ var config = {
       happy: { id: 'jsx' },
     }, {
       test: /^((?!\.module).)*css$/,
-      loader: ExtractTextPlugin.extract('@ali/ta-css-loader'),
+      loader: ExtractTextPlugin.extract('ta-css-loader'),
     }, {
       test: /\.module\.css$/,
-      loader: ExtractTextPlugin.extract('@ali/ta-css-loader?modules&localIdentName=[name]__[local]___[hash:base64:5]&importLoaders=1!happypack/loader?id=postcss'),
+      loader: ExtractTextPlugin.extract('ta-css-loader?modules&localIdentName=[name]__[local]___[hash:base64:5]&importLoaders=1!happypack/loader?id=postcss'),
     }],
   },
   postcss() {

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="96px" height="96px" viewBox="0 0 96 96" enable-background="new 0 0 96 96" xml:space="preserve">
+<title>钻石线（96x96) copy</title>
+<desc>Created with Sketch.</desc>
+<defs>
+	<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="1.412" y="7.276" width="92.68" height="80.194">
+		<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+	</filter>
+</defs>
+<mask maskUnits="userSpaceOnUse" x="1.412" y="7.276" width="92.68" height="80.194" id="mask-2_1_">
+	<g filter="url(#Adobe_OpacityMaskFilter)">
+		<polygon id="path-1_1_" fill="#FFFFFF" points="94.702,7.683 46.575,7.683 46.575,88.101 94.702,88.101 		"/>
+	</g>
+</mask>
+<g id="Group-Copy-14" mask="url(#mask-2_1_)">
+	<g id="Shape" transform="translate(0.889699, 0.550642)">
+		<polygon fill="#F7BC1A" points="0.974,28.635 46.236,83.984 46.342,83.847 46.342,83.847 23.891,28.635 		"/>
+		<polygon fill="#FACB25" points="0.522,28.094 0.974,28.635 23.891,28.635 34.123,8.221 19.828,8.221 		"/>
+		<g>
+			<path fill="#DAE2ED" d="M92.504,30.131H68.743L57.409,6.726h17.003l18.517,22.324 M70.618,27.14h16.933L73.074,9.716H62.181
+				L70.618,27.14z"/>
+		</g>
+		<g>
+			<path fill="#DAE2ED" d="M93.202,29.503L47.123,86.92l-2.156-3.279l23.722-56.5h22.6 M70.672,30.131L51.695,75.024l37.108-44.893
+				H70.672z"/>
+		</g>
+		<polygon fill="none" stroke="#DAE2ED" stroke-width="2" points="23.891,28.635 46.342,83.847 69.681,28.635 		"/>
+		<polygon fill="none" stroke="#DAE2ED" stroke-width="2" points="23.891,28.635 69.681,28.635 59.795,8.221 34.123,8.221 		"/>
+	</g>
+</g>
+<g id="Mask_1_">
+	<rect id="path-3_1_" x="0.5" y="5.605" opacity="0" fill="#FFFFFF" width="48.127" height="84.568"/>
+</g>
+<defs>
+	<filter id="Adobe_OpacityMaskFilter_1_" filterUnits="userSpaceOnUse" x="1.995" y="7.591" width="90.445" height="80.726">
+		<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+	</filter>
+</defs>
+<mask maskUnits="userSpaceOnUse" x="1.995" y="7.591" width="90.445" height="80.726" id="mask-4_1_">
+	<g filter="url(#Adobe_OpacityMaskFilter_1_)">
+		<polygon id="path-3_2_" fill="#FFFFFF" points="0.163,7.308 48.29,7.308 48.29,92.268 0.163,92.268 		"/>
+	</g>
+</mask>
+<g id="Group-Copy-14_1_" mask="url(#mask-4_1_)">
+	<g id="Shape_1_" transform="translate(0.889699, 0.000000)">
+		<g>
+			<polygon fill="#F7BC1A" points="91.551,28.818 47.122,87.178 46.873,87.677 46.374,87.302 68.634,28.818 			"/>
+		</g>
+		<polygon fill="#FF8A3D" points="33.292,7.591 23.405,29.382 1.105,29.382 19.342,7.591 		"/>
+		<polygon fill="#FF6A00" points="46.744,88.316 1.105,29.382 23.405,29.382 		"/>
+		<polygon fill="#FF8A3D" points="69.194,29.382 46.744,88.316 23.405,29.382 		"/>
+		<polygon fill="#FFAC74" points="69.194,29.382 23.405,29.382 33.292,7.591 58.961,7.591 		"/>
+	</g>
+</g>
+</svg>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>gold-plus-supplier  64x64</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="gold-plus-supplier--64x64" fill-rule="nonzero">
+            <g id="Group-16">
+                <g id="Group-2">
+                    <g id="Group" fill="#FED340">
+                        <circle id="Oval" cx="32" cy="32" r="32"></circle>
+                    </g>
+                    <path d="M9.22270742,32 C9.22270742,19.4202353 19.4202353,9.22270742 32,9.22270742 C44.5797648,9.22270742 54.7772926,19.4202353 54.7772926,32 C54.7772926,44.5797648 44.5797648,54.7772926 32,54.7772926 C19.4202353,54.7772926 9.22270742,44.5797648 9.22270742,32" id="Fill-4" fill="#D8725B"></path>
+                </g>
+            </g>
+            <polygon id="Combined-Shape" fill="#FED340" points="31.5247332 32.6789531 50.7888391 13.4148472 58.298375 20.9243829 31.5444704 47.6782877 31.4489435 47.5827608 31.4292066 47.6024977 14.5327511 30.7060424 22.0422869 23.1965066"></polygon>
+        </g>
+    </g>
+</svg>

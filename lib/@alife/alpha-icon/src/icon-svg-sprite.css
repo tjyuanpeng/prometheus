@@ -1,0 +1,125 @@
+@import url(./svg-payment/sprite.css);
+.ui2-icon-svg {
+  display: inline-block;
+  font-size: 0;
+  background-repeat: no-repeat;
+}
+
+.ui2-icon-svg-xxl {
+  width: 96px;
+  height: 96px;
+  background-image: url("./svg/build/css/96px/svg/sprite.svg");
+}
+
+.ui2-icon-svg-xl, .ui2-icon-svg-l, .ui2-icon-svg-m, .ui2-icon-svg-s, .ui2-icon-svg-xs {
+  background-image: url("./svg/build/css/64px/svg/sprite.svg");
+}
+
+.ui2-icon-svg-xl {
+  width: 64px;
+  height: 64px;
+}
+
+.ui2-icon-svg-l {
+  width: 48px;
+  height: 48px;
+  background-size: 240px !important;
+}
+
+.ui2-icon-svg-m {
+  width: 32px;
+  height: 32px;
+  background-size: 160px !important;
+}
+
+.ui2-icon-svg-s {
+  width: 24px;
+  height: 24px;
+  background-size: 120px !important;
+}
+
+.ui2-icon-svg-xs {
+  width: 16px;
+  height: 16px;
+  background-size: 80px !important;
+}
+
+.ui2-icon-svg-a-and-v-checked {
+  background-position: 25% 0;
+}
+
+.ui2-icon-svg-assessed-supplier {
+  background-position: 75% 33.333333333333336%;
+}
+
+.ui2-icon-svg-business-identity {
+  background-position: 0 33.333333333333336%;
+}
+
+.ui2-icon-svg-company-video {
+  background-position: 25% 33.333333333333336%;
+}
+
+.ui2-icon-svg-e-credit-line {
+  background-position: 50% 66.66666666666667%;
+}
+
+.ui2-icon-svg-gold-supplier {
+  background-position: 0 0;
+}
+
+.ui2-icon-svg-inspection-service {
+  background-position: 75% 66.66666666666667%;
+}
+
+.ui2-icon-svg-logistic-service {
+  background-position: 0 100%;
+}
+
+.ui2-icon-svg-new {
+  background-position: 100% 100%;
+}
+
+.ui2-icon-svg-onsite-check {
+  background-position: 50% 100%;
+}
+
+.ui2-icon-svg-secure-payment {
+  background-position: 75% 100%;
+}
+
+.ui2-icon-svg-trade-assurance {
+  background-position: 100% 33.333333333333336%;
+}
+
+.ui2-icon-svg-trade-assurance_100percent {
+  background-position: 100% 66.66666666666667%;
+}
+
+.ui2-icon-svg-trade-assurance_new {
+  background-position: 100% 66.66666666666667%;
+}
+
+.ui2-icon-svg-ta-selected {
+  background-position: 100% 0;
+}
+
+.ui2-icon-svg-diamond {
+  background-position: 50% 0;
+}
+
+.ui2-icon-svg-diamond-level-half {
+  background-position: 50% 33.333333333333336%;
+}
+
+.ui2-icon-svg-diamond-level-half-filled {
+  background-position: 0 66.66666666666667%;
+}
+
+.ui2-icon-svg-diamond-level-one {
+  background-position: 25% 66.66666666666667%;
+}
+
+.ui2-icon-svg-gold-plus-supplier {
+  background-position: 75% 0;
+}

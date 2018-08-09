@@ -1,0 +1,386 @@
+/* common */
+.ui2-icon-svg-payment {
+  display: inline-block;
+  font-size: 0;
+  background: url("./svg/sprite.css-67d00460.svg") no-repeat; }
+
+.ui2-icon-svg-payment-xs {
+  height: 16px;
+  background-size: 133px 128px; }
+
+.ui2-icon-svg-payment-s {
+  height: 24px;
+  background-size: 199.5px 192px; }
+
+.ui2-icon-svg-payment-m {
+  height: 32px;
+  background-size: 266px 256px; }
+
+.ui2-icon-svg-payment-l {
+  height: 48px;
+  background-size: 399px 384px; }
+
+.ui2-icon-svg-payment-xl {
+  height: 64px;
+  background-size: 532px 512px; }
+
+/* position */
+.ui2-icon-svg-payment-alipay {
+  background-position: 0 71.42857142857143%; }
+
+.ui2-icon-svg-payment-xs.ui2-icon-svg-payment-alipay {
+  width: 42.068px; }
+
+.ui2-icon-svg-payment-s.ui2-icon-svg-payment-alipay {
+  width: 63.102px; }
+
+.ui2-icon-svg-payment-m.ui2-icon-svg-payment-alipay {
+  width: 84.136px; }
+
+.ui2-icon-svg-payment-l.ui2-icon-svg-payment-alipay {
+  width: 126.204px; }
+
+.ui2-icon-svg-payment-xl.ui2-icon-svg-payment-alipay {
+  width: 168.272px; }
+
+.ui2-icon-svg-payment-american-express {
+  background-position: 0 57.142857142857146%; }
+
+.ui2-icon-svg-payment-xs.ui2-icon-svg-payment-american-express {
+  width: 46.791px; }
+
+.ui2-icon-svg-payment-s.ui2-icon-svg-payment-american-express {
+  width: 70.1865px; }
+
+.ui2-icon-svg-payment-m.ui2-icon-svg-payment-american-express {
+  width: 93.582px; }
+
+.ui2-icon-svg-payment-l.ui2-icon-svg-payment-american-express {
+  width: 140.373px; }
+
+.ui2-icon-svg-payment-xl.ui2-icon-svg-payment-american-express {
+  width: 187.164px; }
+
+.ui2-icon-svg-payment-bank-transfer {
+  background-position: 82.82357626443647% 71.42857142857143%; }
+
+.ui2-icon-svg-payment-xs.ui2-icon-svg-payment-bank-transfer {
+  width: 32.56px; }
+
+.ui2-icon-svg-payment-s.ui2-icon-svg-payment-bank-transfer {
+  width: 48.84px; }
+
+.ui2-icon-svg-payment-m.ui2-icon-svg-payment-bank-transfer {
+  width: 65.12px; }
+
+.ui2-icon-svg-payment-l.ui2-icon-svg-payment-bank-transfer {
+  width: 97.68px; }
+
+.ui2-icon-svg-payment-xl.ui2-icon-svg-payment-bank-transfer {
+  width: 130.24px; }
+
+.ui2-icon-svg-payment-citibank {
+  background-position: 90.69061384019449% 42.857142857142854%; }
+
+.ui2-icon-svg-payment-xs.ui2-icon-svg-payment-citibank {
+  width: 47.033px; }
+
+.ui2-icon-svg-payment-s.ui2-icon-svg-payment-citibank {
+  width: 70.5495px; }
+
+.ui2-icon-svg-payment-m.ui2-icon-svg-payment-citibank {
+  width: 94.066px; }
+
+.ui2-icon-svg-payment-l.ui2-icon-svg-payment-citibank {
+  width: 141.099px; }
+
+.ui2-icon-svg-payment-xl.ui2-icon-svg-payment-citibank {
+  width: 188.132px; }
+
+.ui2-icon-svg-payment-diners-club {
+  background-position: 0 28.571428571428573%; }
+
+.ui2-icon-svg-payment-xs.ui2-icon-svg-payment-diners-club {
+  width: 66.23px; }
+
+.ui2-icon-svg-payment-s.ui2-icon-svg-payment-diners-club {
+  width: 99.345px; }
+
+.ui2-icon-svg-payment-m.ui2-icon-svg-payment-diners-club {
+  width: 132.46px; }
+
+.ui2-icon-svg-payment-l.ui2-icon-svg-payment-diners-club {
+  width: 198.69px; }
+
+.ui2-icon-svg-payment-xl.ui2-icon-svg-payment-diners-club {
+  width: 264.92px; }
+
+.ui2-icon-svg-payment-e-checking {
+  background-position: 99.90261404407997% 0; }
+
+.ui2-icon-svg-payment-xs.ui2-icon-svg-payment-e-checking {
+  width: 54.96px; }
+
+.ui2-icon-svg-payment-s.ui2-icon-svg-payment-e-checking {
+  width: 82.44px; }
+
+.ui2-icon-svg-payment-m.ui2-icon-svg-payment-e-checking {
+  width: 109.92px; }
+
+.ui2-icon-svg-payment-l.ui2-icon-svg-payment-e-checking {
+  width: 164.88px; }
+
+.ui2-icon-svg-payment-xl.ui2-icon-svg-payment-e-checking {
+  width: 219.84px; }
+
+.ui2-icon-svg-payment-jcb {
+  background-position: 25.213972201901978% 100%; }
+
+.ui2-icon-svg-payment-xs.ui2-icon-svg-payment-jcb {
+  width: 23.64px; }
+
+.ui2-icon-svg-payment-s.ui2-icon-svg-payment-jcb {
+  width: 35.46px; }
+
+.ui2-icon-svg-payment-m.ui2-icon-svg-payment-jcb {
+  width: 47.28px; }
+
+.ui2-icon-svg-payment-l.ui2-icon-svg-payment-jcb {
+  width: 70.92px; }
+
+.ui2-icon-svg-payment-xl.ui2-icon-svg-payment-jcb {
+  width: 94.56px; }
+
+.ui2-icon-svg-payment-maestro {
+  background-position: 56.01630119116765% 85.71428571428571%; }
+
+.ui2-icon-svg-payment-xs.ui2-icon-svg-payment-maestro {
+  width: 27.977px; }
+
+.ui2-icon-svg-payment-s.ui2-icon-svg-payment-maestro {
+  width: 41.9655px; }
+
+.ui2-icon-svg-payment-m.ui2-icon-svg-payment-maestro {
+  width: 55.954px; }
+
+.ui2-icon-svg-payment-l.ui2-icon-svg-payment-maestro {
+  width: 83.931px; }
+
+.ui2-icon-svg-payment-xl.ui2-icon-svg-payment-maestro {
+  width: 111.908px; }
+
+.ui2-icon-svg-payment-mastercard {
+  background-position: 29.19331742243437% 85.71428571428571%; }
+
+.ui2-icon-svg-payment-xs.ui2-icon-svg-payment-mastercard {
+  width: 28.25px; }
+
+.ui2-icon-svg-payment-s.ui2-icon-svg-payment-mastercard {
+  width: 42.375px; }
+
+.ui2-icon-svg-payment-m.ui2-icon-svg-payment-mastercard {
+  width: 56.5px; }
+
+.ui2-icon-svg-payment-l.ui2-icon-svg-payment-mastercard {
+  width: 84.75px; }
+
+.ui2-icon-svg-payment-xl.ui2-icon-svg-payment-mastercard {
+  width: 113px; }
+
+.ui2-icon-svg-payment-mastercard-text {
+  background-position: 0 0; }
+
+.ui2-icon-svg-payment-xs.ui2-icon-svg-payment-mastercard-text {
+  width: 77.964px; }
+
+.ui2-icon-svg-payment-s.ui2-icon-svg-payment-mastercard-text {
+  width: 116.946px; }
+
+.ui2-icon-svg-payment-m.ui2-icon-svg-payment-mastercard-text {
+  width: 155.928px; }
+
+.ui2-icon-svg-payment-l.ui2-icon-svg-payment-mastercard-text {
+  width: 233.892px; }
+
+.ui2-icon-svg-payment-xl.ui2-icon-svg-payment-mastercard-text {
+  width: 311.856px; }
+
+.ui2-icon-svg-payment-paypal {
+  background-position: 53.90730307952855% 57.142857142857146%; }
+
+.ui2-icon-svg-payment-xs.ui2-icon-svg-payment-paypal {
+  width: 46.201px; }
+
+.ui2-icon-svg-payment-s.ui2-icon-svg-payment-paypal {
+  width: 69.3015px; }
+
+.ui2-icon-svg-payment-m.ui2-icon-svg-payment-paypal {
+  width: 92.402px; }
+
+.ui2-icon-svg-payment-l.ui2-icon-svg-payment-paypal {
+  width: 138.603px; }
+
+.ui2-icon-svg-payment-xl.ui2-icon-svg-payment-paypal {
+  width: 184.804px; }
+
+.ui2-icon-svg-payment-pci {
+  background-position: 93.81497882171736% 28.571428571428573%; }
+
+.ui2-icon-svg-payment-xs.ui2-icon-svg-payment-pci {
+  width: 49.896px; }
+
+.ui2-icon-svg-payment-s.ui2-icon-svg-payment-pci {
+  width: 74.844px; }
+
+.ui2-icon-svg-payment-m.ui2-icon-svg-payment-pci {
+  width: 99.792px; }
+
+.ui2-icon-svg-payment-l.ui2-icon-svg-payment-pci {
+  width: 149.688px; }
+
+.ui2-icon-svg-payment-xl.ui2-icon-svg-payment-pci {
+  width: 199.584px; }
+
+.ui2-icon-svg-payment-qiwiwallet {
+  background-position: 45.785807575097955% 71.42857142857143%; }
+
+.ui2-icon-svg-payment-xs.ui2-icon-svg-payment-qiwiwallet {
+  width: 41.12px; }
+
+.ui2-icon-svg-payment-s.ui2-icon-svg-payment-qiwiwallet {
+  width: 61.68px; }
+
+.ui2-icon-svg-payment-m.ui2-icon-svg-payment-qiwiwallet {
+  width: 82.24px; }
+
+.ui2-icon-svg-payment-l.ui2-icon-svg-payment-qiwiwallet {
+  width: 123.36px; }
+
+.ui2-icon-svg-payment-xl.ui2-icon-svg-payment-qiwiwallet {
+  width: 164.48px; }
+
+.ui2-icon-svg-payment-tt {
+  background-position: 82.53498897086789% 85.71428571428571%; }
+
+.ui2-icon-svg-payment-xs.ui2-icon-svg-payment-tt {
+  width: 27.824px; }
+
+.ui2-icon-svg-payment-s.ui2-icon-svg-payment-tt {
+  width: 41.736px; }
+
+.ui2-icon-svg-payment-m.ui2-icon-svg-payment-tt {
+  width: 55.648px; }
+
+.ui2-icon-svg-payment-l.ui2-icon-svg-payment-tt {
+  width: 83.472px; }
+
+.ui2-icon-svg-payment-xl.ui2-icon-svg-payment-tt {
+  width: 111.296px; }
+
+.ui2-icon-svg-payment-unionpay {
+  background-position: 0 100%; }
+
+.ui2-icon-svg-payment-xs.ui2-icon-svg-payment-unionpay {
+  width: 27.574px; }
+
+.ui2-icon-svg-payment-s.ui2-icon-svg-payment-unionpay {
+  width: 41.361px; }
+
+.ui2-icon-svg-payment-m.ui2-icon-svg-payment-unionpay {
+  width: 55.148px; }
+
+.ui2-icon-svg-payment-l.ui2-icon-svg-payment-unionpay {
+  width: 82.722px; }
+
+.ui2-icon-svg-payment-xl.ui2-icon-svg-payment-unionpay {
+  width: 110.296px; }
+
+.ui2-icon-svg-payment-verisign-secured {
+  background-position: 0 85.71428571428571%; }
+
+.ui2-icon-svg-payment-xs.ui2-icon-svg-payment-verisign-secured {
+  width: 30.58px; }
+
+.ui2-icon-svg-payment-s.ui2-icon-svg-payment-verisign-secured {
+  width: 45.87px; }
+
+.ui2-icon-svg-payment-m.ui2-icon-svg-payment-verisign-secured {
+  width: 61.16px; }
+
+.ui2-icon-svg-payment-l.ui2-icon-svg-payment-verisign-secured {
+  width: 91.74px; }
+
+.ui2-icon-svg-payment-xl.ui2-icon-svg-payment-verisign-secured {
+  width: 122.32px; }
+
+.ui2-icon-svg-payment-visa {
+  background-position: 93.72870764206664% 57.142857142857146%; }
+
+.ui2-icon-svg-payment-xs.ui2-icon-svg-payment-visa {
+  width: 33.786px; }
+
+.ui2-icon-svg-payment-s.ui2-icon-svg-payment-visa {
+  width: 50.679px; }
+
+.ui2-icon-svg-payment-m.ui2-icon-svg-payment-visa {
+  width: 67.572px; }
+
+.ui2-icon-svg-payment-l.ui2-icon-svg-payment-visa {
+  width: 101.358px; }
+
+.ui2-icon-svg-payment-xl.ui2-icon-svg-payment-visa {
+  width: 135.144px; }
+
+.ui2-icon-svg-payment-webmoney {
+  background-position: 99.86294526776908% 14.285714285714286%; }
+
+.ui2-icon-svg-payment-xs.ui2-icon-svg-payment-webmoney {
+  width: 54.929px; }
+
+.ui2-icon-svg-payment-s.ui2-icon-svg-payment-webmoney {
+  width: 82.3935px; }
+
+.ui2-icon-svg-payment-m.ui2-icon-svg-payment-webmoney {
+  width: 109.858px; }
+
+.ui2-icon-svg-payment-l.ui2-icon-svg-payment-webmoney {
+  width: 164.787px; }
+
+.ui2-icon-svg-payment-xl.ui2-icon-svg-payment-webmoney {
+  width: 219.716px; }
+
+.ui2-icon-svg-payment-western-union {
+  background-position: 0 42.857142857142854%; }
+
+.ui2-icon-svg-payment-xs.ui2-icon-svg-payment-western-union {
+  width: 56.137px; }
+
+.ui2-icon-svg-payment-s.ui2-icon-svg-payment-western-union {
+  width: 84.2055px; }
+
+.ui2-icon-svg-payment-m.ui2-icon-svg-payment-western-union {
+  width: 112.274px; }
+
+.ui2-icon-svg-payment-l.ui2-icon-svg-payment-western-union {
+  width: 168.411px; }
+
+.ui2-icon-svg-payment-xl.ui2-icon-svg-payment-western-union {
+  width: 224.548px; }
+
+.ui2-icon-svg-payment-worldpay {
+  background-position: 0 14.285714285714286%; }
+
+.ui2-icon-svg-payment-xs.ui2-icon-svg-payment-worldpay {
+  width: 66.586px; }
+
+.ui2-icon-svg-payment-s.ui2-icon-svg-payment-worldpay {
+  width: 99.879px; }
+
+.ui2-icon-svg-payment-m.ui2-icon-svg-payment-worldpay {
+  width: 133.172px; }
+
+.ui2-icon-svg-payment-l.ui2-icon-svg-payment-worldpay {
+  width: 199.758px; }
+
+.ui2-icon-svg-payment-xl.ui2-icon-svg-payment-worldpay {
+  width: 266.344px; }

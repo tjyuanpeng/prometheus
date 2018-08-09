@@ -1,0 +1,44 @@
+$pageWidthList: (990, 1200);
+$colFixedBase: 20px;
+$prefix: ".ui2-grid ";
+$col2SubList: (11, 14);
+$col2ExtraList: (12, 16);
+$gridOffset: 20;
+
+@mixin page-width() {
+  @each $pageWidth in $pageWidthList {
+    .grid-#{$pageWidth} {
+      width: 100%;
+      max-width: $pageWidth * 1px;
+      margin: 0 auto;  
+    }
+  }
+}
+
+@mixin grid-c2-sub() {
+  @each $subWidth in $col2SubList {
+    .grid-c2-s#{$subWidth} {
+      .col-sub {
+        width: $subWidth * $colFixedBase;
+        margin-left: -100%;
+      }
+      .main-wrap {
+        margin-left: $subWidth * $colFixedBase + $gridOffset;
+      }
+    }
+  }
+}
+
+@mixin grid-c2-extra() {
+  @each $extraWidth in $col2ExtraList {
+    .grid-c2-e#{$extraWidth} {
+      .main-wrap {
+        margin-right: $extraWidth * $colFixedBase + $gridOffset;
+      }
+      .col-extra {
+        width: $extraWidth * $colFixedBase;
+        margin-left: - $extraWidth * $colFixedBase;
+      }
+    }
+  }
+}

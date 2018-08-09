@@ -1,0 +1,16 @@
+{
+    "name": "@alife/alpha-apollo",
+    "description": "apollo",
+    "version": "2.1.6",
+    "dependencies": {},
+    "main": "apollo.css",
+    "devDependencies": {
+        "@ali/f2ehint-hook": "~1.0.0"
+    },
+    "publishConfig": {
+        "registry": "http://registry.npm.alibaba-inc.com"
+    },
+    "scripts": {
+        "hint": "f2ehint-hook --check"
+    }
+}
